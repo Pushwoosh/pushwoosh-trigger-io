@@ -1,0 +1,23 @@
+{
+	"general": {},
+	"ios": {
+		"profiles": {
+			"DEFAULT": {}
+		},
+		"simulatorsdk": "8.1",
+		"simulatorfamily": "iphone",
+		"simulatorvariant": "default",
+		"devicetypeid": "com.apple.CoreSimulator.SimDeviceType.iPhone-6"
+	},
+	"android": {
+		"profiles": {
+			"DEFAULT": {
+				"keystore": "",
+				"storepass": "",
+				"keypass": "",
+				"keyalias": ""
+			}
+		},
+		"sdk": ""
+	}
+}
