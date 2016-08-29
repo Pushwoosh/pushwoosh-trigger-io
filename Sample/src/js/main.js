@@ -50,3 +50,7 @@ forge.pushwoosh.getHWID(
 
 // other examples:
 forge.pushwoosh.setApplicationIconBadgeNumber({badge:10});
+forge.pushwoosh.setForegroundAlert({alert:true});
+
+forge.pushwoosh.setUserId({userId:"%userId"});
+forge.pushwoosh.postEvent({event:"buttonPressed", attributes:{ "buttonNumber" : 4, "buttonLabel" : "banner" }});
