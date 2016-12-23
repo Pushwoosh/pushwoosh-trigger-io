@@ -1,0 +1,366 @@
+[
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "android.permission.INTERNET"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "android.permission.GET_ACCOUNTS"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "android.permission.WAKE_LOCK"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "com.google.android.c2dm.permission.RECEIVE"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "android.permission.ACCESS_NETWORK_STATE"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "android.permission.READ_PHONE_STATE"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "{{core.android.package_name}}.permission.C2D_MESSAGE"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_permission": {
+                "permission": "android.permission.VIBRATE"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "tag": "meta-data",
+                    "attributes": {
+                        "android:name": "com.google.android.gms.version",
+                        "android:value": "9256000"
+                    }
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:exported": "true", 
+                        "android:name": "com.google.android.gms.gcm.GcmReceiver", 
+                        "android:permission": "com.google.android.c2dm.permission.SEND"
+                    }, 
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "attributes": {
+                                        "android:name": "com.google.android.c2dm.intent.RECEIVE"
+                                    }, 
+                                    "tag": "action"
+                                }, 
+                                {
+                                    "attributes": {
+                                        "android:name": "{{core.android.package_name}}"
+                                    }, 
+                                    "tag": "category"
+                                }
+                            ], 
+                            "tag": "intent-filter"
+                        }
+                    ], 
+                    "tag": "receiver"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "{{core.android.package_name}}.permission.C2D_MESSAGE", 
+                        "android:protectionLevel": "signature"
+                    }, 
+                    "tag": "permission"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.richpages.RichPageActivity"
+                    }, 
+                    "tag": "activity"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.inapp.WebActivity",
+                        "android:theme": "@android:style/Theme.Translucent.NoTitleBar"
+                    }, 
+                    "tag": "activity"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.inapp.InAppRetrieverService"
+                    }, 
+                    "tag": "service"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.MessageActivity"
+                    }, 
+                    "tag": "activity"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.PushHandlerActivity"
+                    }, 
+                    "tag": "activity"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:exported": "false", 
+                        "android:name": "com.pushwoosh.GCMListenerService"
+                    }, 
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "attributes": {
+                                        "android:name": "com.google.android.c2dm.intent.RECEIVE"
+                                    }, 
+                                    "tag": "action"
+                                }
+                            ], 
+                            "tag": "intent-filter"
+                        }
+                    ], 
+                    "tag": "service"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:exported": "false", 
+                        "android:name": "com.pushwoosh.GCMInstanceIDListenerService"
+                    }, 
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "attributes": {
+                                        "android:name": "com.google.android.gms.iid.InstanceID"
+                                    }, 
+                                    "tag": "action"
+                                }
+                            ], 
+                            "tag": "intent-filter"
+                        }
+                    ], 
+                    "tag": "service"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:exported": "false", 
+                        "android:name": "com.pushwoosh.GCMRegistrationService"
+                    }, 
+                    "tag": "service"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.location.GeoLocationService"
+                    }, 
+                    "tag": "service"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_to_activity_manifest": {
+                "element": {
+                    "children": [
+                        {
+                            "attributes": {
+                                "android:name": "{{core.android.package_name}}.MESSAGE"
+                            }, 
+                            "tag": "action"
+                        }, 
+                        {
+                            "attributes": {
+                                "android:name": "android.intent.category.DEFAULT"
+                            }, 
+                            "tag": "category"
+                        }
+                    ], 
+                    "tag": "intent-filter"
+                }
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keep class * extends java.util.ListResourceBundle { protected Object[][] getContents(); }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable { public static final *** NULL; }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keepnames @com.google.android.gms.common.annotation.KeepName class *"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keepclassmembernames class * { @com.google.android.gms.common.annotation.KeepName *; }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keepnames class * implements android.os.Parcelable { public static final ** CREATOR; }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep class * extends java.util.ListResourceBundle { protected java.lang.Object[][] getContents(); }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable { public static final *** NULL; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep @interface com.google.android.gms.common.annotation.KeepName"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keepnames @com.google.android.gms.common.annotation.KeepName class *"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keepclassmembernames class * { @com.google.android.gms.common.annotation.KeepName *; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keepnames class * implements android.os.Parcelable { public static final ** CREATOR; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-dontwarn android.security.NetworkSecurityPolicy"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep public class com.google.android.gms.dynamite.descriptors.** { public <fields>; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep public class com.google.android.gms.flags.impl.FlagProviderImpl { public <fields>; public <methods>; }"
+            }
+        }
+    }
+]

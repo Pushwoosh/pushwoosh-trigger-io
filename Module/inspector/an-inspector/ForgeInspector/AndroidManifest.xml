@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="io.trigger.forge.android.inspector" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="23" />
+    <application android:icon="@drawable/icon" android:label="ForgeInspector" android:name="io.trigger.forge.android.core.ForgeApp">
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboardHidden|navigation|orientation|screenLayout|uiMode|fontScale|screenSize" android:launchMode="singleTask" android:name="io.trigger.forge.android.core.ForgeActivity" android:stateNotNeeded="true" android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="io.trigger.forge.android.inspector.MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider android:authorities="io.trigger.forge.android.inspector" android:exported="true" android:name="io.trigger.forge.android.core.ForgeContentProvider" tools:ignore="ExportedContentProvider" />
+        <meta-data android:name="com.google.android.gms.version" android:value="9256000" />
+        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="io.trigger.forge.android.inspector" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.pushwoosh.richpages.RichPageActivity" />
+        <activity android:name="com.pushwoosh.MessageActivity" />
+        <activity android:name="com.pushwoosh.PushHandlerActivity" />
+        <service android:exported="false" android:name="com.pushwoosh.GCMListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.pushwoosh.GCMInstanceIDListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.pushwoosh.GCMRegistrationService" />
+        <service android:name="com.pushwoosh.location.GeoLocationService" />
+        <activity android:name="com.pushwoosh.inapp.WebActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <service android:name="com.pushwoosh.inapp.InAppRetrieverService" />
+    </application>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="io.trigger.forge.android.inspector.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <permission android:name="io.trigger.forge.android.inspector.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+</manifest>
