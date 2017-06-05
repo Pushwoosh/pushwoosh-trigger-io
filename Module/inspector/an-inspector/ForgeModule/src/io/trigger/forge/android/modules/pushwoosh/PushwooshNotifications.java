@@ -2,19 +2,25 @@ package io.trigger.forge.android.modules.pushwoosh;
 
 import io.trigger.forge.android.core.ForgeApp;
 import android.app.Activity;
+import android.app.ActivityManager;
+import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Debug;
+import android.os.PowerManager;
 
-import com.pushwoosh.BasePushMessageReceiver;
 import com.pushwoosh.PushManager;
 import com.pushwoosh.BaseRegistrationReceiver;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.pushwoosh.internal.utils.PWLog;
+
+import java.util.List;
 
 public class PushwooshNotifications
 {
@@ -48,11 +54,11 @@ public class PushwooshNotifications
 		mForegroundAlert = prefs.getBoolean(PROPERTY_FOREGROUND_ALERT, false);
 
 		// Register receivers
-		mPushReceiver.register();
 		mRegistrationReceiver.register();
 
 		// Create and start push manager
 		PushManager pushManager = PushManager.getInstance(activity);
+		pushManager.setNotificationFactory(new NotificationFactory());
 
 		// Start push manager, this will count app open for Pushwoosh stats as
 		// well
@@ -71,62 +77,10 @@ public class PushwooshNotifications
 
 	public void setForegroundAlert(boolean alert)
 	{
-		if (alert) {
-			mPushReceiver.unregister();
-		}
-
 		mForegroundAlert = alert;
 		SharedPreferences.Editor editor = ForgeApp.getActivity().getSharedPreferences(PREFERENCE, Context.MODE_PRIVATE).edit();
 		editor.putBoolean(PROPERTY_FOREGROUND_ALERT, alert);
 		editor.commit();
-	}
-
-	public class PushMessageReceiver extends BasePushMessageReceiver
-	{
-		@Override
-		protected void onMessageReceive(Intent intent)
-		{
-			// JSON_DATA_KEY contains JSON payload of push notification.
-			String eventString = intent.getExtras().getString(JSON_DATA_KEY);
-			Gson gson = new Gson();
-			JsonElement jsonElement = gson.toJsonTree(eventString);
-			ForgeApp.event("pushwoosh.pushReceived", jsonElement);
-		}
-
-		public void register()
-		{
-			unregister();
-
-			// do not register
-			if (mForegroundAlert)
-				return;
-
-			Context context = ForgeApp.getActivity();
-
-			IntentFilter intentFilter = new IntentFilter(context.getPackageName() + ".action.PUSH_MESSAGE_RECEIVE");
-			context.registerReceiver(this, intentFilter);
-		}
-
-		public void unregister()
-		{
-			Context context = ForgeApp.getActivity();
-
-			try
-			{
-				context.unregisterReceiver(this);
-			}
-			catch (Exception e)
-			{
-				// pass.
-			}
-		}
-	}
-
-	private PushMessageReceiver mPushReceiver = new PushMessageReceiver();
-
-	public PushMessageReceiver getPushReceiver()
-	{
-		return mPushReceiver;
 	}
 
 	public class RegistrationReceiver extends BaseRegistrationReceiver
@@ -175,9 +129,7 @@ public class PushwooshNotifications
 			if (intent.hasExtra(PushManager.PUSH_RECEIVE_EVENT))
 			{
 				String eventString = intent.getStringExtra(PushManager.PUSH_RECEIVE_EVENT);
-				Gson gson = new Gson();
-				JsonElement jsonElement = gson.toJsonTree(eventString);
-				ForgeApp.event("pushwoosh.pushReceived", jsonElement);
+				onPushAccepted(eventString);
 			}
 			else if (intent.hasExtra(PushManager.REGISTER_EVENT))
 			{
@@ -246,4 +198,58 @@ public class PushwooshNotifications
 		activity.setIntent(mainAppIntent);
 	}
 
+	boolean handlePushReceived(String message)
+	{
+		Context context = ForgeApp.getActivity();
+		if (context == null)
+		{
+			return false;
+		}
+
+		if (isAppOnForeground(context) && !mForegroundAlert)
+		{
+			onPushAccepted(message);
+			return true;
+		}
+
+		return false;
+	}
+
+	private void onPushAccepted(String message)
+	{
+		PWLog.debug(API.LTAG, "onPushAccepted: " + message);
+
+		Gson gson = new Gson();
+		JsonElement jsonElement = gson.toJsonTree(message);
+		ForgeApp.event("pushwoosh.pushReceived", jsonElement);
+	}
+
+	private boolean isAppOnForeground(Context context) {
+		KeyguardManager kgMgr = (KeyguardManager) context.getSystemService(Context.KEYGUARD_SERVICE);
+		boolean lockScreenIsShowing = kgMgr.inKeyguardRestrictedInputMode();
+		if (lockScreenIsShowing) {
+			return false;
+		}
+
+		PowerManager powerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
+		boolean isScreenAwake = (Build.VERSION.SDK_INT < 20 ? powerManager.isScreenOn() : powerManager.isInteractive());
+		if (!isScreenAwake) {
+			return false;
+		}
+
+		ActivityManager activityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+		List<ActivityManager.RunningAppProcessInfo> appProcesses = activityManager.getRunningAppProcesses();
+		if (appProcesses == null) {
+			return false;
+		}
+
+		final String packageName = context.getPackageName();
+		for (ActivityManager.RunningAppProcessInfo appProcess : appProcesses) {
+			if (appProcess.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND && appProcess.processName.equals(packageName)) {
+				return true;
+			}
+		}
+
+		return false;
+	}
 }

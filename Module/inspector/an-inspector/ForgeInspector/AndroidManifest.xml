@@ -23,7 +23,6 @@
             </intent-filter>
         </receiver>
         <activity android:name="com.pushwoosh.richpages.RichPageActivity" />
-        <activity android:name="com.pushwoosh.MessageActivity" />
         <activity android:name="com.pushwoosh.PushHandlerActivity" />
         <service android:exported="false" android:name="com.pushwoosh.GCMListenerService">
             <intent-filter>

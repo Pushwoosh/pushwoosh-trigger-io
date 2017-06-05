@@ -28,8 +28,6 @@ public class EventListener extends ForgeEventListener {
 		super.onResume();
 
 		PWLog.debug(API.LTAG, "EventListener.onResume()");
-
-    	PushwooshNotifications.getInstance().getPushReceiver().register();
 	}
 
     @Override
@@ -39,7 +37,6 @@ public class EventListener extends ForgeEventListener {
 
 		PWLog.debug(API.LTAG, "EventListener.onStart()");
 
-		PushwooshNotifications.getInstance().getPushReceiver().register();
 		PushwooshNotifications.getInstance().getRegistrationReceiver().register();
 	}
 
@@ -49,8 +46,6 @@ public class EventListener extends ForgeEventListener {
 		super.onPause();
 
 		PWLog.debug(API.LTAG, "EventListener.onPause()");
-
-		PushwooshNotifications.getInstance().getPushReceiver().unregister();
 	}
 
 	@Override
@@ -60,7 +55,6 @@ public class EventListener extends ForgeEventListener {
 
 		PWLog.debug(API.LTAG, "EventListener.onDestroy()");
 
-		PushwooshNotifications.getInstance().getPushReceiver().unregister();
 		PushwooshNotifications.getInstance().getRegistrationReceiver().unregister();
 	}
 }
