@@ -1,8 +1,8 @@
 {
-	"changes": "New module build with Pushwoosh SDK from 25/10/2016",
+	"changes": "New module build with Pushwoosh SDK from 05/06/2017",
 	"description": "Pushwoosh push notifications module",
 	"min_platform_version": "v2.4.5",
 	"namespace": "pushwoosh",
 	"platform_version": "v2.4.5",
-	"version": "2.6"
+	"version": "2.6.1"
 }

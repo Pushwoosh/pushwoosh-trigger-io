@@ -21,6 +21,8 @@ import com.google.gson.JsonObject;
 
 public class API
 {
+	public static final String LTAG = "TriggerModule";
+
 	private static volatile boolean deviceReady = false;
 	
 	private static void waitForDeviceReady()

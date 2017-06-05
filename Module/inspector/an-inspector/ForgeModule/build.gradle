@@ -82,7 +82,7 @@ repositories{
 	}
 }
 
-task updateModule (dependsOn: ":ForgeModule:assembleRelease") {
+task updateModule (dependsOn: [":ForgeModule:assembleRelease", ":ForgeModule:assembleDebug"]) {
 	doLast {
 		// copy vanilla jar for backwards compatibility
 		copy {
