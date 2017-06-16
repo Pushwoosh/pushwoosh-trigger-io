@@ -1,5 +1,7 @@
 #import "pushwoosh_API.h"
 
+#import <UserNotifications/UserNotifications.h>
+
 static NSString *const KeyShowAlert = @"PWTriggerShowAlert";
 
 @interface PWInternalDelegate : NSObject <PushNotificationDelegate> {
@@ -156,6 +158,8 @@ static NSString *const KeyShowAlert = @"PWTriggerShowAlert";
 	PushNotificationManager *pushManager = [PushNotificationManager pushManager];
 	[pushManager sendAppOpen];
 	pushManager.delegate = [PWInternalDelegate shared];
+	[UNUserNotificationCenter currentNotificationCenter].delegate = [PushNotificationManager pushManager].notificationCenterDelegate;
+
 	[PWInternalDelegate shared].deviceReady = YES;
 	
 	NSNumber* showAlert = [[NSUserDefaults standardUserDefaults] objectForKey:KeyShowAlert];
