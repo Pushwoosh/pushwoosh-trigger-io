@@ -9,7 +9,7 @@ var success = function (d) {
 	log = function () {
 		return forge.logging.log.apply(this, arguments);
 	};
-	
+
 forge.internal.addEventListener("pushwoosh.registrationSuccess",
 	function (status) {
 		log('registered with token: ' + status['deviceToken']);
@@ -31,19 +31,32 @@ forge.internal.addEventListener("pushwoosh.registrationSuccess",
 			errorfail);
 		});
 
+forge.internal.addEventListener("pushwoosh.registrationFail",
+    function (status) {
+        log('registration failed: ' + status);
+    }
+);
+
 forge.internal.addEventListener("pushwoosh.pushReceived",
 	function (notification) {
 		alert('push received: ' + notification);
-	});
+	}
+);
+
+forge.internal.addEventListener("pushwoosh.pushAccepted",
+    function (notification) {
+        alert('push accepted: ' + notification);
+    }
+);
 
 forge.pushwoosh.onDeviceReady({"pw_appid":"PW_APPLICATION"});
 
 forge.pushwoosh.registerDevice();
 
 forge.pushwoosh.getHWID(
-	function (hwid) {
-		forge.logging.log('HWID : ' + hwid);
-	});
+    function (hwid) {
+        forge.logging.log('HWID : ' + hwid);
+    });
 
 // other examples:
 forge.pushwoosh.setApplicationIconBadgeNumber({badge:10});

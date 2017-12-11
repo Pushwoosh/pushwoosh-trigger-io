@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "PushNotificationManager.h"
+#import "PWInAppManager.h"
 
 @interface pushwoosh_API : NSObject
 
