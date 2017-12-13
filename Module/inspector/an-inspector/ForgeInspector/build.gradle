@@ -11,16 +11,19 @@ android {
 		compileOptions rootProject.ext.compileOptions
 	}
 
+	flavorDimensions "crosswalk"
+
 	productFlavors {
-        vanilla {
-        }
-        crosswalk {
+		vanilla {
+		}
+		crosswalk {
 			minSdkVersion 14
 			ndk {
 				abiFilters "armeabi-v7a", ""
 			}
-        }
-    }
+			dimension "crosswalk"
+		}
+	}
 
 	sourceSets {
 		main {
@@ -59,8 +62,7 @@ android {
 
 dependencies {
 	crosswalkCompile "org.xwalk:xwalk_core_library:" + rootProject.ext.crosswalkVersion
-	crosswalkCompile project(path: ":ForgeModule", configuration: "crosswalkDebug")
-	vanillaCompile project(path: ":ForgeModule", configuration: "vanillaDebug") 
+	implementation project(path: ":ForgeModule")
 
 	compile fileTree(dir: "libs", include: ["*.jar"], exclude: ["forgecore.jar", "guava-13.0.1.jar"]) 
 }

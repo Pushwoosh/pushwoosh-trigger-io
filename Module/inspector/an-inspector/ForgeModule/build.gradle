@@ -11,6 +11,9 @@ android {
 	}
 
 	publishNonDefault true
+
+	flavorDimensions "crosswalk"
+
 	productFlavors {
 		vanilla {
 		}
@@ -19,6 +22,7 @@ android {
 			ndk {
 				abiFilters "armeabi-v7a", ""
 			}
+			dimension "crosswalk"
 		}
 	}
 
@@ -67,6 +71,12 @@ dependencies {
 	compile "com.android.support:support-v4:" + rootProject.ext.supportLibraryVersion
 	compile "com.android.support:appcompat-v7:" + rootProject.ext.supportLibraryVersion
 	compile "com.google.guava:guava:13.0.1"
+    implementation "com.pushwoosh.java7:pushwoosh:5.5.2"
+    implementation "com.pushwoosh.java7:pushwoosh-amazon:5.5.2"
+    implementation "com.pushwoosh.java7:pushwoosh-gcm:5.5.2"
+    implementation "com.pushwoosh.java7:pushwoosh-badge:5.5.2"
+    implementation "com.google.android.gms:play-services-gcm:11.6.2"
+
 
 	crosswalkCompile "org.xwalk:xwalk_core_library:" + rootProject.ext.crosswalkVersion
 
