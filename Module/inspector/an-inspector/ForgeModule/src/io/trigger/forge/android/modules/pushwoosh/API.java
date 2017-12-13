@@ -1,110 +1,115 @@
 package io.trigger.forge.android.modules.pushwoosh;
 
-import io.trigger.forge.android.core.ForgeApp;
-import io.trigger.forge.android.core.ForgeParam;
-import io.trigger.forge.android.core.ForgeTask;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import android.location.Location;
-
-import com.pushwoosh.PushManager;
-import com.pushwoosh.SendPushTagsCallBack;
-import com.pushwoosh.inapp.InAppFacade;
+import android.support.annotation.NonNull;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.pushwoosh.Pushwoosh;
+import com.pushwoosh.badge.PushwooshBadge;
+import com.pushwoosh.exception.GetTagsException;
+import com.pushwoosh.exception.PushwooshException;
+import com.pushwoosh.exception.RegisterForPushNotificationsException;
+import com.pushwoosh.exception.UnregisterForPushNotificationException;
+import com.pushwoosh.function.Callback;
+import com.pushwoosh.function.Result;
+import com.pushwoosh.inapp.PushwooshInApp;
+import com.pushwoosh.location.PushwooshLocation;
+import com.pushwoosh.tags.Tags;
+import com.pushwoosh.tags.TagsBundle;
 
-public class API
-{
-	public static final String LTAG = "TriggerModule";
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import io.trigger.forge.android.core.ForgeApp;
+import io.trigger.forge.android.core.ForgeParam;
+import io.trigger.forge.android.core.ForgeTask;
+
+@SuppressWarnings("unused")
+public class API {
+	static final String LTAG = "TriggerModule";
 
 	private static volatile boolean deviceReady = false;
-	
-	private static void waitForDeviceReady()
-	{
-		while(!deviceReady)
-		{
+
+	private static void waitForDeviceReady() {
+		while (!deviceReady) {
 			try {
 				Thread.sleep(100);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+			} catch (InterruptedException ignore) {
 			}
 		}
 	}
-	
-	public static void onDeviceReady(final ForgeTask task, @ForgeParam("pw_appid") String pushwooshAppId, @ForgeParam("gcm_id") String gcmProjectId)
-	{
-		PushManager.initializePushManager(ForgeApp.getActivity(), pushwooshAppId, gcmProjectId);
+
+	public static void onDeviceReady(final ForgeTask task, @ForgeParam("pw_appid") String pushwooshAppId, @ForgeParam("gcm_id") String gcmProjectId) {
+		Pushwoosh.getInstance().setAppId(pushwooshAppId);
+		Pushwoosh.getInstance().setSenderId(gcmProjectId);
 		PushwooshNotifications.getInstance().pushNotificationsStartup();
 		task.success();
-		
+
 		deviceReady = true;
 	}
 
-	public static void registerDevice(final ForgeTask task)
-	{
+	public static void registerDevice(final ForgeTask task) {
 		waitForDeviceReady();
-		
-		PushManager.getInstance(ForgeApp.getActivity()).registerForPushNotifications();
+
+		Pushwoosh.getInstance().registerForPushNotifications(new Callback<String, RegisterForPushNotificationsException>() {
+			@Override
+			public void process(@NonNull final Result<String, RegisterForPushNotificationsException> result) {
+				if (result.isSuccess()) {
+					doOnRegistered(result.getData());
+				} else if (result.getException() != null) {
+					doOnRegisteredError(result.getException().getMessage());
+				}
+			}
+		});
 
 		//return success now, the event will come to event listener "pushwoosh.registrationSuccess"
 		task.success();
 	}
 
-	public static void unregisterDevice(final ForgeTask task)
-	{
+	public static void unregisterDevice(final ForgeTask task) {
 		waitForDeviceReady();
-		
-		PushManager.getInstance(ForgeApp.getActivity()).unregisterForPushNotifications();
+
+		Pushwoosh.getInstance().unregisterForPushNotifications(new Callback<String, UnregisterForPushNotificationException>() {
+			@Override
+			public void process(@NonNull final Result<String, UnregisterForPushNotificationException> result) {
+				if (result.isSuccess()) {
+					doOnUnregistered(result.getData());
+				} else if (result.getException() != null) {
+					doOnUnregisteredError(result.getException().getMessage());
+				}
+			}
+		});
 		task.success();
 	}
 
-	public static void startLocationTracking(final ForgeTask task)
-	{
+	public static void startLocationTracking(final ForgeTask task) {
 		waitForDeviceReady();
-		
-		PushManager.startTrackingGeoPushes(ForgeApp.getActivity());
+
+		PushwooshLocation.startLocationTracking();
 		task.success();
 	}
 
-	public static void stopLocationTracking(final ForgeTask task)
-	{
+	public static void stopLocationTracking(final ForgeTask task) {
 		waitForDeviceReady();
-		
-		PushManager.stopTrackingGeoPushes(ForgeApp.getActivity());
+
+		PushwooshLocation.stopLocationTracking();
 		task.success();
 	}
 
-	public static void setTags(final ForgeTask task, @ForgeParam("tags") JsonObject tags)
-	{
+	public static void setTags(final ForgeTask task, @ForgeParam("tags") JsonObject tags) {
 		waitForDeviceReady();
-		
-		Map<String, Object> paramsMap = new HashMap<String, Object>();
-		
-		Gson gson = new Gson();
-		paramsMap = (Map<String, Object>) gson.fromJson(tags, paramsMap.getClass());
 
 		try {
-			PushManager.sendTags(ForgeApp.getActivity(), paramsMap, new SendPushTagsCallBack() {
-
+			Pushwoosh.getInstance().sendTags(Tags.fromJson(new JSONObject(tags.toString())), new Callback<Void, PushwooshException>() {
 				@Override
-				public void onSentTagsError(Exception e) {
-					task.error(e);
-				}
-
-				@Override
-				public void onSentTagsSuccess(Map<String, String> arg0) {
-					task.success();
-				}
-
-				@Override
-				public void taskStarted() {
+				public void process(@NonNull final Result<Void, PushwooshException> result) {
+					if (result.isSuccess()) {
+						task.success();
+					} else if (result.getException() != null) {
+						task.error(result.getException());
+					}
 				}
 			});
 		} catch (Exception e) {
@@ -112,140 +117,107 @@ public class API
 		}
 	}
 
-	public static void getTags(final ForgeTask task)
-	{
+	public static void getTags(final ForgeTask task) {
 		waitForDeviceReady();
-		
-		PushManager.getTagsAsync(ForgeApp.getActivity(), new PushManager.GetTagsListener() {
-			@Override
-			public void onTagsReceived(java.util.Map<java.lang.String,java.lang.Object> tags) {
-				final JsonObject jsonElement = new JsonObject();
-				Iterator<Entry<String, Object>> it = tags.entrySet().iterator();
-				while (it.hasNext())
-				{
-					Map.Entry<String, Object> pairs = it.next();
-					jsonElement.addProperty(pairs.getKey(), pairs.getValue().toString());
-				}
-				task.success(jsonElement);
-			}
 
+		Pushwoosh.getInstance().getTags(new Callback<TagsBundle, GetTagsException>() {
 			@Override
-			public void onError(java.lang.Exception e) {
-				task.error(e);
+			public void process(@NonNull Result<TagsBundle, GetTagsException> result) {
+				if (result.isSuccess() && result.getData() != null) {
+					JsonParser jsonParser = new JsonParser();
+					JsonObject gsonObject = (JsonObject) jsonParser.parse(result.getData().toJson().toString());
+					task.success(gsonObject);
+				} else {
+					if (result.getException() == null) {
+						task.error("Failed to getTags");
+					} else {
+						task.error(result.getException());
+					}
+				}
 			}
 		});
-		
+
 	}
 
-	public static void getPushToken(final ForgeTask task)
-	{
+	public static void getPushToken(final ForgeTask task) {
 		waitForDeviceReady();
-		
-		task.success(PushManager.getPushToken(ForgeApp.getActivity()));
+
+		String pushToken = Pushwoosh.getInstance().getPushToken();
+		task.success(pushToken == null ? "" : pushToken);
 	}
 
-	public static void getHWID(final ForgeTask task)
-	{
+	public static void getHWID(final ForgeTask task) {
 		waitForDeviceReady();
 
-		task.success(PushManager.getPushwooshHWID(ForgeApp.getActivity()));
+		task.success(Pushwoosh.getInstance().getHwid());
 	}
 
 	/**
 	 * IOS only method
 	 */
-	public static void getRemoteNotificationStatus(final ForgeTask task)
-	{
+	public static void getRemoteNotificationStatus(final ForgeTask task) {
 		task.success();
 	}
 
-	/**
-	 * IOS only method
-	 */
-	public static void setApplicationIconBadgeNumber(final ForgeTask task, @ForgeParam("badge") String badge)
-	{
+	public static void setApplicationIconBadgeNumber(final ForgeTask task, @ForgeParam("badge") String badge) {
+		try {
+			PushwooshBadge.setBadgeNumber(Integer.valueOf(badge));
+			task.success();
+		} catch (Exception e){
+			task.error(e);
+		}
+	}
+
+	public static void cancelAllLocalNotifications(final ForgeTask task) {
+		Pushwoosh.getInstance().clearLaunchNotification();
 		task.success();
 	}
 
-	public static void cancelAllLocalNotifications(final ForgeTask task)
-	{
-		PushManager.clearLocalNotifications(ForgeApp.getActivity());
-		task.success();
-	}
-
-	public static void setForegroundAlert(final ForgeTask task, @ForgeParam("alert") boolean alert)
-	{
+	public static void setForegroundAlert(final ForgeTask task, @ForgeParam("alert") boolean alert) {
 		waitForDeviceReady();
 
 		PushwooshNotifications.getInstance().setForegroundAlert(alert);
 		task.success();
 	}
 
-	public static void setUserId(ForgeTask task, @ForgeParam("userId") String userId)
-	{
+	public static void setUserId(ForgeTask task, @ForgeParam("userId") String userId) {
 		waitForDeviceReady();
 
-		PushManager pushManager = PushManager.getInstance(ForgeApp.getActivity());
-		pushManager.setUserId(ForgeApp.getActivity(), userId);
+		PushwooshInApp.getInstance().setUserId(userId);
 
 		task.success();
 	}
 
-	public static void postEvent(ForgeTask task, @ForgeParam("event") String event, @ForgeParam("attributes") JsonObject attributesJson)
-	{
+	public static void postEvent(ForgeTask task, @ForgeParam("event") String event, @ForgeParam("attributes") JsonObject attributesJson) {
 		waitForDeviceReady();
 
-		Map<String, Object> attributes = new HashMap<String, Object>();
+		try {
+			PushwooshInApp.getInstance().postEvent(event, Tags.fromJson(new JSONObject(attributesJson.toString())));
+			task.success();
+		} catch (JSONException e) {
+			task.error(e.getLocalizedMessage());
+		}
+	}
 
+	private static void doOnRegisteredError(String message) {
 		Gson gson = new Gson();
-		attributes = (Map<String, Object>) gson.fromJson(attributesJson, attributes.getClass());
-
-		InAppFacade.postEvent(ForgeApp.getActivity(), event, attributes);
-		task.success();
+		JsonElement jsonElement = gson.toJsonTree(message);
+		ForgeApp.event("pushwoosh.registrationFail", jsonElement);
 	}
 
-/*	public static void setSimpleNotificationMode(final ForgeTask task)
-	{
-		PushManager.setSimpleNotificationMode(ForgeApp.getActivity());
+	private static void doOnRegistered(String token) {
+		JsonObject jsonElement = new JsonObject();
+		jsonElement.addProperty("deviceToken", token);
+		ForgeApp.event("pushwoosh.registrationSuccess", jsonElement);
 	}
 
-	public static void setSoundNotificationType(final ForgeTask task, @ForgeParam("soundType") final SoundType soundType)
-	{
-		PushManager.setSoundNotificationType(ForgeApp.getActivity(), soundType);
+	private static void doOnUnregisteredError(String message) {
+		Gson gson = new Gson();
+		JsonElement jsonElement = gson.toJsonTree(message);
+		ForgeApp.event("pushwoosh.unRegistrationFail", jsonElement);
 	}
 
-	public static void setVibrateNotificationType(final ForgeTask task, @ForgeParam("vibrateType") final VibrateType vibrateType)
-	{
-		PushManager.setVibrateNotificationType(ForgeApp.getActivity(), vibrateType);
+	private static void doOnUnregistered(String data) {
+		ForgeApp.event("pushwoosh.unRegistrationSuccess", null);
 	}
-
-	public static void setLightScreenOnNotification(final ForgeTask task, @ForgeParam("b") final boolean b)
-	{
-		PushManager.setLightScreenOnNotification(ForgeApp.getActivity(), b);
-	}
-
-
-
-	public static void getBeacons(final ForgeTask task, @ForgeParam("getBeaconsListener") final GetBeaconsListener getBeaconsListener)
-	{
-		PushManager.getBeacons(ForgeApp.getActivity(), getBeaconsListener);
-	}
-
-	public static void scheduleLocalNotification(final ForgeTask task, @ForgeParam("string") final String string,
-			@ForgeParam("integer") final int integer)
-	{
-		PushManager.scheduleLocalNotification(ForgeApp.getActivity(), string, integer);
-	}
-
-	public static void scheduleLocalNotification(final ForgeTask task, @ForgeParam("string") final String string,
-			@ForgeParam("bundle") final Bundle bundle, @ForgeParam("integer") final int integer)
-	{
-		PushManager.scheduleLocalNotification(ForgeApp.getActivity(), string, bundle, integer);
-	}
-
-	public static void incrementalTag(final ForgeTask task, @ForgeParam("integer") final int integer)
-	{
-		PushManager.incrementalTag(integer);
-	}
-	*/
 }
