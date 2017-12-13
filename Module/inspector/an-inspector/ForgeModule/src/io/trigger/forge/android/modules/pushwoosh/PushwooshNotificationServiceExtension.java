@@ -1,9 +1,5 @@
 package io.trigger.forge.android.modules.pushwoosh;
 
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageManager;
-
-import com.pushwoosh.internal.utils.PWLog;
 import com.pushwoosh.notification.NotificationServiceExtension;
 import com.pushwoosh.notification.PushMessage;
 

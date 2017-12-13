@@ -6,7 +6,7 @@
 	<application>
 		<meta-data
 			android:name="com.pushwoosh.notification_service_extension"
-			android:value="io.trigger.forge.android.modules.pushwoosh.internal.PushwooshNotificationServiceExtension" />
+			android:value="io.trigger.forge.android.modules.pushwoosh.PushwooshNotificationServiceExtension" />
 
 		<meta-data
 			android:name="com.pushwoosh.internal.plugin_provider"

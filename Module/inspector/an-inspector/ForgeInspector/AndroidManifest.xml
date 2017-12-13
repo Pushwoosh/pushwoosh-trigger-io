@@ -15,28 +15,6 @@
             </intent-filter>
         </activity>
         <provider android:authorities="io.trigger.forge.android.inspector" android:exported="true" android:name="io.trigger.forge.android.core.ForgeContentProvider" tools:ignore="ExportedContentProvider" />
-        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="io.trigger.forge.android.inspector" />
-            </intent-filter>
-        </receiver>
-        <activity android:name="com.pushwoosh.richpages.RichPageActivity" />
-        <activity android:name="com.pushwoosh.PushHandlerActivity" />
-        <service android:exported="false" android:name="com.pushwoosh.GCMListenerService">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-            </intent-filter>
-        </service>
-        <service android:exported="false" android:name="com.pushwoosh.GCMInstanceIDListenerService">
-            <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID" />
-            </intent-filter>
-        </service>
-        <service android:exported="false" android:name="com.pushwoosh.GCMRegistrationService" />
-        <service android:name="com.pushwoosh.location.GeoLocationService" />
-        <activity android:name="com.pushwoosh.inapp.WebActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <service android:name="com.pushwoosh.inapp.InAppRetrieverService" />
     </application>
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />

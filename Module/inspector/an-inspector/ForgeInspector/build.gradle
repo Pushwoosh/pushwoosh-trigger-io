@@ -19,7 +19,6 @@ android {
 		crosswalk {
 			minSdkVersion 14
 			ndk {
-				abiFilters "armeabi-v7a", ""
 			}
 			dimension "crosswalk"
 		}

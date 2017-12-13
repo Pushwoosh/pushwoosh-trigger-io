@@ -73,7 +73,7 @@ class PushwooshNotifications {
 	}
 
 	private void doOnPushOpened(String message) {
-		PWLog.debug(API.LTAG, "doOnPushReceived: " + message);
+		PWLog.debug(API.LTAG, "doOnPushAccepted: " + message);
 
 		Gson gson = new Gson();
 		JsonElement jsonElement = gson.toJsonTree(message);

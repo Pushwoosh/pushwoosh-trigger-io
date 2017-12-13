@@ -20,7 +20,6 @@ android {
 		crosswalk {
 			minSdkVersion 14
 			ndk {
-				abiFilters "armeabi-v7a", ""
 			}
 			dimension "crosswalk"
 		}
@@ -71,6 +70,7 @@ dependencies {
     implementation "com.pushwoosh.java7:pushwoosh-gcm:5.5.2"
     implementation "com.pushwoosh.java7:pushwoosh-badge:5.5.2"
     implementation "com.google.android.gms:play-services-gcm:11.6.2"
+	implementation "com.google.android.gms:play-services-location:11.6.2"
 
 
 	crosswalkCompile "org.xwalk:xwalk_core_library:" + rootProject.ext.crosswalkVersion
