@@ -1,26 +1,24 @@
 var success = function (d) {
-    	forge.logging.log('success :: '+JSON.stringify(d));
-    	alert(JSON.stringify(d));
+		forge.logging.log('success :: '+JSON.stringify(d));
+		alert(JSON.stringify(d));
 	},
 	errorfail = function (e) {
-    	forge.logging.log('errorfail :: '+JSON.stringify(e));
-    	alert(JSON.stringify(e));
+		forge.logging.log('errorfail :: '+JSON.stringify(e));
+		alert(JSON.stringify(e));
 	},
 	log = function () {
-    	return forge.logging.log.apply(this, arguments);
+		return forge.logging.log.apply(this, arguments);
 	};
-	
+
 forge.internal.addEventListener("pushwoosh.registrationSuccess",
 	function (status) {
-    	log('registered with token: ' + status['deviceToken']);
+		log('registered with token: ' + status['deviceToken']);
 									
 		forge.pushwoosh.getPushToken(
 			function (token) {
 				forge.logging.log('token : ' + token);
 		});
-									
-//									forge.pushwoosh.startLocationTracking();
-                                
+		
 		forge.pushwoosh.setTags(
 			{tags : {"tag1" : ["item1", "item2"]}},
 			function (e) {
@@ -33,24 +31,37 @@ forge.internal.addEventListener("pushwoosh.registrationSuccess",
 			errorfail);
 		});
 
+forge.internal.addEventListener("pushwoosh.registrationFail",
+    function (status) {
+        log('registration failed: ' + status);
+    }
+);
+
 forge.internal.addEventListener("pushwoosh.pushReceived",
 	function (notification) {
-    	alert('push received: ' + notification);
-	});
+		alert('push received: ' + notification);
+	}
+);
 
-forge.pushwoosh.onDeviceReady({"pw_appid":"4FC89B6D14A655.46488481", "gcm_id":"60756016005"});
+forge.internal.addEventListener("pushwoosh.pushAccepted",
+    function (notification) {
+        alert('push accepted: ' + notification);
+    }
+);
+
+forge.pushwoosh.onDeviceReady({"pw_appid":"PW_APPLICATION"});
 
 forge.pushwoosh.registerDevice();
 
 forge.pushwoosh.getHWID(
-	function (hwid) {
-    	forge.logging.log('HWID : ' + hwid);
-//    	alert(hwid);
-	});
+    function (hwid) {
+        forge.logging.log('HWID : ' + hwid);
+    });
 
 // other examples:
 forge.pushwoosh.setApplicationIconBadgeNumber({badge:10});
-forge.pushwoosh.setForegroundAlert({alert:true});
+
+forge.pushwoosh.setForegroundAlert({alert : true});
 
 forge.pushwoosh.setUserId({userId:"%userId"});
-forge.pushwoosh.postEvent({event:"buttonPressed", attributes:{ "buttonNumber" : 4, "buttonLabel" : "banner" }});
+forge.pushwoosh.postEvent({event:"testEvent", attributes:{"attribute" : "value"}});

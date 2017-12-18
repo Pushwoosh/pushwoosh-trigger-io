@@ -91,7 +91,7 @@ task updateModule (dependsOn: [":ForgeModule:assembleRelease", ":ForgeModule:ass
 	doLast {
 		// copy vanilla jar for backwards compatibility
 		copy {
-			from "build/intermediates/bundles/vanilla/debug/classes.jar"
+			from "build/intermediates/bundles/vanillaRelease/classes.jar"
 			into "../../../module/android"
 			rename { "module.jar" }
 		}

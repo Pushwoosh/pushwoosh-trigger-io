@@ -1,68 +1,25 @@
 [
     {
         "do": {
-            "android_add_permission": {
-                "permission": "android.permission.INTERNET"
+            "android_add_to_application_manifest": {
+                "element": {
+                    "tag": "meta-data",
+                    "attributes": {
+                        "android:name": "com.pushwoosh.notification_service_extension",
+                        "android:value": "io.trigger.forge.android.modules.pushwoosh.PushwooshNotificationServiceExtension"
+                    }
+                }
             }
         }
-    }, 
-    {
-        "do": {
-            "android_add_permission": {
-                "permission": "android.permission.GET_ACCOUNTS"
-            }
-        }
-    }, 
-    {
-        "do": {
-            "android_add_permission": {
-                "permission": "android.permission.WAKE_LOCK"
-            }
-        }
-    }, 
-    {
-        "do": {
-            "android_add_permission": {
-                "permission": "com.google.android.c2dm.permission.RECEIVE"
-            }
-        }
-    }, 
-    {
-        "do": {
-            "android_add_permission": {
-                "permission": "android.permission.ACCESS_NETWORK_STATE"
-            }
-        }
-    }, 
-    {
-        "do": {
-            "android_add_permission": {
-                "permission": "android.permission.READ_PHONE_STATE"
-            }
-        }
-    }, 
-    {
-        "do": {
-            "android_add_permission": {
-                "permission": "{{core.android.package_name}}.permission.C2D_MESSAGE"
-            }
-        }
-    }, 
-    {
-        "do": {
-            "android_add_permission": {
-                "permission": "android.permission.VIBRATE"
-            }
-        }
-    }, 
+    },
     {
         "do": {
             "android_add_to_application_manifest": {
                 "element": {
                     "tag": "meta-data",
                     "attributes": {
-                        "android:name": "com.google.android.gms.version",
-                        "android:value": "9256000"
+                        "android:name": "com.pushwoosh.internal.plugin_provider",
+                        "android:value": "io.trigger.forge.android.modules.pushwoosh.internal.TriggerPluginProvider"
                     }
                 }
             }
@@ -73,208 +30,146 @@
             "android_add_to_application_manifest": {
                 "element": {
                     "attributes": {
-                        "android:exported": "true", 
-                        "android:name": "com.google.android.gms.gcm.GcmReceiver", 
-                        "android:permission": "com.google.android.c2dm.permission.SEND"
-                    }, 
+                        "android:enabled": "true",
+                        "android:exported": "true",
+                        "android:isolatedProcess": "false",
+                        "android:label": "iBeacon",
+                        "android:name": "com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService"
+                    },
+                    "tag": "service"
+                }
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:enabled": "true",
+                        "android:name": "com.pushwoosh.thirdparty.radiusnetworks.ibeacon.IBeaconIntentProcessor"
+                    },
+                    "tag": "service"
+                }
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.beacon.PushBeaconService"
+                    },
+                    "tag": "service"
+                }
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.location.network.GeoLocationServiceApi16"
+                    },
+                    "tag": "service"
+                }
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:exported": "true",
+                        "android:name": "com.pushwoosh.location.network.GeoLocationServiceApi21",
+                        "android:permission": "android.permission.BIND_JOB_SERVICE"
+                    },
+                    "tag": "service"
+                }
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
+                        "android:name": "com.pushwoosh.location.geofencer.GeofenceReceiver"
+                    },
                     "children": [
                         {
                             "children": [
                                 {
                                     "attributes": {
-                                        "android:name": "com.google.android.c2dm.intent.RECEIVE"
-                                    }, 
+                                        "android:name": "${applicationId}.action.GEOFENCE"
+                                    },
                                     "tag": "action"
-                                }, 
-                                {
-                                    "attributes": {
-                                        "android:name": "{{core.android.package_name}}"
-                                    }, 
-                                    "tag": "category"
                                 }
-                            ], 
+                            ],
                             "tag": "intent-filter"
                         }
-                    ], 
+                    ],
                     "tag": "receiver"
                 }
             }
         }
-    }, 
-    {
-        "do": {
-            "android_add_to_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "{{core.android.package_name}}.permission.C2D_MESSAGE", 
-                        "android:protectionLevel": "signature"
-                    }, 
-                    "tag": "permission"
-                }
-            }
-        }
-    }, 
+    },
     {
         "do": {
             "android_add_to_application_manifest": {
                 "element": {
                     "attributes": {
-                        "android:name": "com.pushwoosh.richpages.RichPageActivity"
-                    }, 
-                    "tag": "activity"
-                }
-            }
-        }
-    }, 
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.inapp.WebActivity",
+                        "android:name": "com.pushwoosh.location.internal.utils.ResolutionActivity",
                         "android:theme": "@android:style/Theme.Translucent.NoTitleBar"
-                    }, 
+                    },
                     "tag": "activity"
                 }
             }
         }
-    }, 
+    },
     {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.inapp.InAppRetrieverService"
-                    }, 
-                    "tag": "service"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh:5.5.2"
+       }
+    },
     {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.MessageActivity"
-                    }, 
-                    "tag": "activity"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-amazon:5.5.2"
+       }
+    },
     {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.PushHandlerActivity"
-                    }, 
-                    "tag": "activity"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-badge:5.5.2"
+       }
+    },
     {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:exported": "false", 
-                        "android:name": "com.pushwoosh.GCMListenerService"
-                    }, 
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "attributes": {
-                                        "android:name": "com.google.android.c2dm.intent.RECEIVE"
-                                    }, 
-                                    "tag": "action"
-                                }
-                            ], 
-                            "tag": "intent-filter"
-                        }
-                    ], 
-                    "tag": "service"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-gcm:5.5.2"
+       }
+    },
     {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:exported": "false", 
-                        "android:name": "com.pushwoosh.GCMInstanceIDListenerService"
-                    }, 
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "attributes": {
-                                        "android:name": "com.google.android.gms.iid.InstanceID"
-                                    }, 
-                                    "tag": "action"
-                                }
-                            ], 
-                            "tag": "intent-filter"
-                        }
-                    ], 
-                    "tag": "service"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_dependency": "com.google.android.gms:play-services-gcm:11.4.0"
+       }
+    },
     {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:exported": "false", 
-                        "android:name": "com.pushwoosh.GCMRegistrationService"
-                    }, 
-                    "tag": "service"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_dependency": "com.google.android.gms:play-services-location:11.4.0"
+       }
+    },
     {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.location.GeoLocationService"
-                    }, 
-                    "tag": "service"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_exclude_jar": "pushwoosh-beacon_v5.5.2.jar"
+       }
+    },
     {
-        "do": {
-            "android_add_to_activity_manifest": {
-                "element": {
-                    "children": [
-                        {
-                            "attributes": {
-                                "android:name": "{{core.android.package_name}}.MESSAGE"
-                            }, 
-                            "tag": "action"
-                        }, 
-                        {
-                            "attributes": {
-                                "android:name": "android.intent.category.DEFAULT"
-                            }, 
-                            "tag": "category"
-                        }
-                    ], 
-                    "tag": "intent-filter"
-                }
-            }
-        }
-    }, 
+       "do": {
+           "android_add_gradle_exclude_jar": "pushwoosh-location_v5.5.2.jar"
+       }
+    },
     {
         "do": {
             "android_add_proguard_rule": "-keep class * extends java.util.ListResourceBundle { protected Object[][] getContents(); }"
@@ -360,6 +255,20 @@
         "do": {
             "android_add_proguard_rule": {
                 "rule": "-keep public class com.google.android.gms.flags.impl.FlagProviderImpl { public <fields>; public <methods>; }"
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep class com.pushwoosh.** { *; }"
+            }
+        }
+    },
+        {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-dontwarn com.pushwoosh.**"
             }
         }
     }
