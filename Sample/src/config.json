@@ -3,7 +3,7 @@
 	"name": "Sample App with Pushwoosh",
 	"author": "Pushwoosh",
 	"version": "1.0",
-	"platform_version": "v2.4.5",
+	"platform_version": "v2.6.4",
 	"description": "An empty app created by default",
 	"core": {
 		"general": {
@@ -13,17 +13,17 @@
 			"reload": true
 		},
 		"android": {
-			"minimum_version": "9",
+			"minimum_version": "16",
 			"package_name": "com.pushoosh.demoapp"
 		},
 		"ios": {
-			"minimum_version": "7.0",
+			"minimum_version": "9.3",
 			"package_name": "com.pushwoosh.demoapp"
 		}
 	},
 	"modules": {
 		"pushwoosh": {
-			"version": "2.3.0"
+			"version": "3.0.1"
 		}
 	}
 }
