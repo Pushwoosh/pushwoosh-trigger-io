@@ -152,22 +152,22 @@
     },
     {
        "do": {
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-location:5.5.2"
+       }
+    },
+    {
+       "do": {
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-beacon:5.5.2"
+       }
+    },
+    {
+       "do": {
            "android_add_gradle_dependency": "com.google.android.gms:play-services-gcm:11.4.0"
        }
     },
     {
        "do": {
            "android_add_gradle_dependency": "com.google.android.gms:play-services-location:11.4.0"
-       }
-    },
-    {
-       "do": {
-           "android_add_gradle_exclude_jar": "pushwoosh-beacon_v5.5.2.jar"
-       }
-    },
-    {
-       "do": {
-           "android_add_gradle_exclude_jar": "pushwoosh-location_v5.5.2.jar"
        }
     },
     {
