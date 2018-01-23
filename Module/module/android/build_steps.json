@@ -132,32 +132,32 @@
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh:5.5.2"
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh:5.5.3"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-amazon:5.5.2"
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-amazon:5.5.3"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-badge:5.5.2"
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-badge:5.5.3"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-gcm:5.5.2"
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-gcm:5.5.3"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-location:5.5.2"
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-location:5.5.3"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-beacon:5.5.2"
+           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-beacon:5.5.3"
        }
     },
     {
