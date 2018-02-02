@@ -152,16 +152,6 @@
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-location:5.5.3"
-       }
-    },
-    {
-       "do": {
-           "android_add_gradle_dependency": "com.pushwoosh.java7:pushwoosh-beacon:5.5.3"
-       }
-    },
-    {
-       "do": {
            "android_add_gradle_dependency": "com.google.android.gms:play-services-gcm:11.4.0"
        }
     },

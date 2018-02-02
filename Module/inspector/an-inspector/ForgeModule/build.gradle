@@ -73,8 +73,6 @@ dependencies {
     implementation "com.pushwoosh.java7:pushwoosh-amazon:${pushwoosh}"
     implementation "com.pushwoosh.java7:pushwoosh-badge:${pushwoosh}"
     implementation "com.pushwoosh.java7:pushwoosh-gcm:${pushwoosh}"
-    implementation "com.pushwoosh.java7:pushwoosh-location:${pushwoosh}"
-    implementation "com.pushwoosh.java7:pushwoosh-beacon:${pushwoosh}"
     implementation "com.google.android.gms:play-services-gcm:11.6.2"
 	implementation "com.google.android.gms:play-services-location:11.6.2"
 
