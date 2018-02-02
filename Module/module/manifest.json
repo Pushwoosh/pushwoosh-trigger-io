@@ -1,8 +1,8 @@
 {
-  "changes": "* Fixed Android SDK version\n* iOS module built with xcode 9",
+  "changes": "* Fixed android permissions",
 	"description": "Pushwoosh push notifications module",
 	"min_platform_version": "v2.6.3",
 	"namespace": "pushwoosh",
 	"platform_version": "v2.6.3",
-  "version": "3.0.2"
+  "version": "3.0.4"
 }
