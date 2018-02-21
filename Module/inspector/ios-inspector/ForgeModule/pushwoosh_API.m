@@ -169,8 +169,13 @@ static NSString *const KeyShowAlert = @"PWTriggerShowAlert";
 }
 
 + (void)unregisterDevice:(ForgeTask *)task {
-    [[PushNotificationManager pushManager] unregisterForPushNotifications];
-    [task success:nil];
+    [[PushNotificationManager pushManager] unregisterForPushNotificationsWithCompletion:^(NSError *error) {
+        if (!error) {
+            [task success:nil];
+        } else {
+            [task error:error.localizedDescription];
+        }
+    }];
 }
 
 + (void)startLocationTracking:(ForgeTask *)task {
