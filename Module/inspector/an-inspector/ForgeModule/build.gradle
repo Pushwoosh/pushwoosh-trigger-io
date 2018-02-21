@@ -69,10 +69,10 @@ dependencies {
 	implementation "com.android.support:support-v4:" + rootProject.ext.supportLibraryVersion
 	implementation "com.android.support:appcompat-v7:" + rootProject.ext.supportLibraryVersion
 	implementation "com.google.guava:guava:13.0.1"
-    implementation "com.pushwoosh.java7:pushwoosh:${pushwoosh}"
-    implementation "com.pushwoosh.java7:pushwoosh-amazon:${pushwoosh}"
-    implementation "com.pushwoosh.java7:pushwoosh-badge:${pushwoosh}"
-    implementation "com.pushwoosh.java7:pushwoosh-gcm:${pushwoosh}"
+    implementation "com.pushwoosh:pushwoosh:${pushwoosh}"
+    implementation "com.pushwoosh:pushwoosh-amazon:${pushwoosh}"
+    implementation "com.pushwoosh:pushwoosh-badge:${pushwoosh}"
+    implementation "com.pushwoosh:pushwoosh-gcm:${pushwoosh}"
     implementation "com.google.android.gms:play-services-gcm:11.6.2"
 	implementation "com.google.android.gms:play-services-location:11.6.2"
 
