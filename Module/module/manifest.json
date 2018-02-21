@@ -1,8 +1,8 @@
 {
-  "changes": "* Fixed android permissions",
+  "changes": "* Android SDK version updated to 5.5.5\n* iOS SDK version updated to 5.5.4",
 	"description": "Pushwoosh push notifications module",
 	"min_platform_version": "v2.6.3",
 	"namespace": "pushwoosh",
 	"platform_version": "v2.6.3",
-  "version": "3.0.4"
+  "version": "3.0.5"
 }
