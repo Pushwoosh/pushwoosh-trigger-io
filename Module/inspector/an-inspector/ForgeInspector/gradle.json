@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        "com.pushwoosh:pushwoosh:5.5.5", 
+        "com.pushwoosh:pushwoosh-amazon:5.5.5", 
+        "com.pushwoosh:pushwoosh-badge:5.5.5", 
+        "com.pushwoosh:pushwoosh-gcm:5.5.5", 
+        "com.google.android.gms:play-services-gcm:+", 
+        "com.google.android.gms:play-services-location:+"
+    ]
+}

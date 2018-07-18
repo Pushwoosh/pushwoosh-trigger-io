@@ -1,117 +1,125 @@
 apply plugin: 'com.android.library'
 
 android {
-	compileSdkVersion rootProject.ext.compileSdkVersion
-	buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
-	defaultConfig {
-		minSdkVersion rootProject.ext.minSdkVersion
-		targetSdkVersion rootProject.ext.targetSdkVersion
-		compileOptions rootProject.ext.compileOptions
-	}
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        compileOptions rootProject.ext.compileOptions
+        manifestPlaceholders = moduleManifestPlaceholders()
+    }
 
-	publishNonDefault true
+    flavorDimensions "default"
 
-	flavorDimensions "crosswalk"
+    productFlavors {
+        vanilla {
+            dimension "default"
+        }
+        crosswalk {
+            dimension "default"
+            minSdkVersion moduleMinSdkVersion() ?: 16
+            ndk {
+                abiFilters "armeabi-v7a", ""
+            }
+        }
+    }
 
-	productFlavors {
-		vanilla {
-		}
-		crosswalk {
-			minSdkVersion 14
-			ndk {
-			}
-			dimension "crosswalk"
-		}
-	}
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+        crosswalk {
+            java.srcDirs = ["flavors/crosswalk/src"]
+        }
+        vanilla {
+            java.srcDirs = ["flavors/vanilla/src"]
+        }
+    }
 
-	sourceSets {
-		main {
-			manifest.srcFile 'AndroidManifest.xml'
-			java.srcDirs = ['src']
-			resources.srcDirs = ['src']
-			aidl.srcDirs = ['src']
-			renderscript.srcDirs = ['src']
-			res.srcDirs = ['res']
-			assets.srcDirs = ['assets']
-			jniLibs.srcDirs = ['libs']
-		}
-		crosswalk {
-			java.srcDirs = ["flavors/crosswalk/src"]
-		}
-		vanilla {
-			java.srcDirs = ["flavors/vanilla/src"]
-		}
+    buildTypes {
+        debug rootProject.ext.debug
+        release rootProject.ext.release << {
+            proguardFile getDefaultProguardFile("proguard-android.txt")
+            proguardFile "../ForgeInspector/proguard-project.txt"
+        }
+    }
 
-		instrumentTest.setRoot('tests')
-	}
-
-	buildTypes {
-		debug rootProject.ext.debug
-		release rootProject.ext.release << {
-			proguardFile getDefaultProguardFile("proguard-android.txt")
-			proguardFile "../ForgeInspector/proguard-project.txt"
-		}
-	}
-
-	lintOptions {
-		abortOnError false
-	}
-}
-
-ext {
-    pushwoosh = "5.5.5"
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
-	implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation fileTree(dir: "libs", include: ["*.jar"], exclude: ["android-support-v4.jar",
+                                                                "forgecore.jar",
+                                                                "guava-13.0.1.jar",
+                                                                "metadata-extractor-2.6.4.jar",
+                                                                "org.apache.http.legacy.jar",
+                                                                "xmpcore.jar"])
 
-	implementation "com.android.support:support-v4:" + rootProject.ext.supportLibraryVersion
-	implementation "com.android.support:appcompat-v7:" + rootProject.ext.supportLibraryVersion
-	implementation "com.google.guava:guava:13.0.1"
-    implementation "com.pushwoosh:pushwoosh:${pushwoosh}"
-    implementation "com.pushwoosh:pushwoosh-amazon:${pushwoosh}"
-    implementation "com.pushwoosh:pushwoosh-badge:${pushwoosh}"
-    implementation "com.pushwoosh:pushwoosh-gcm:${pushwoosh}"
-    implementation "com.google.android.gms:play-services-gcm:11.6.2"
-	implementation "com.google.android.gms:play-services-location:11.6.2"
+    implementation "com.android.support:support-v4:" + rootProject.ext.supportLibraryVersion
+    implementation "com.android.support:appcompat-v7:" + rootProject.ext.supportLibraryVersion
+    implementation "com.google.guava:guava:13.0.1"
 
+    crosswalkImplementation "org.xwalk:xwalk_core_library:" + rootProject.ext.crosswalkVersion
 
-	crosswalkCompile "org.xwalk:xwalk_core_library:" + rootProject.ext.crosswalkVersion
+    vanillaImplementation (name:'ForgeCore-vanilla-debug', ext:'aar')
+    crosswalkImplementation (name:'ForgeCore-crosswalk-debug', ext:'aar')
 
-	vanillaCompile (name:'ForgeCore-vanilla-debug', ext:'aar')
-	crosswalkCompile (name:'ForgeCore-crosswalk-debug', ext:'aar')
-
-	compile moduleDependencies()
+    implementation moduleDependencies()
 }
 
 repositories{
-	flatDir {
-		dirs 'libs'
-	}
+    flatDir {
+        dirs 'libs'
+    }
 }
 
-task updateModule (dependsOn: [":ForgeModule:assembleRelease", ":ForgeModule:assembleDebug"]) {
-	doLast {
-		// copy vanilla jar for backwards compatibility
-		copy {
-			from "build/intermediates/bundles/vanillaRelease/classes.jar"
-			into "../../../module/android"
-			rename { "module.jar" }
-		}
-		println "\n\tUpdated module/android/module.jar"
+task updateModule (dependsOn: ":ForgeModule:assembleRelease") {
+    doLast {
+        // copy vanilla jar for backwards compatibility
+        copy {
+            from "build/intermediates/bundles/vanilla/debug/classes.jar"
+            into "../../../module/android"
+            rename { "module.jar" }
+        }
+        println "\n\tUpdated module/android/module.jar"
 
-		// copy aar flavors for platforms >= 2.4.1
-		copy {
-			from "build/outputs/aar/ForgeModule-vanilla-release.aar"
-			into "../../../module/android"
-		}
-		println "\tUpdated module/android/ForgeModule-vanilla-release.aar"
+        // copy aar flavors for platforms >= 2.4.1
+        copy {
+            from "build/outputs/aar/ForgeModule-vanilla-release.aar"
+            into "../../../module/android"
+        }
+        println "\tUpdated module/android/ForgeModule-vanilla-release.aar"
 
-		copy {
-			from "build/outputs/aar/ForgeModule-crosswalk-release.aar"
-			into "../../../module/android"
-		}
-		println "\tUpdated module/android/ForgeModule-crosswalk-release.aar\n"
-	}
+        copy {
+            from "build/outputs/aar/ForgeModule-crosswalk-release.aar"
+            into "../../../module/android"
+        }
+        println "\tUpdated module/android/ForgeModule-crosswalk-release.aar\n"
+    }
+}
+
+// Force Android support library version for Crosswalk builds
+configurations.all { conf ->
+    if (conf.name.contains("crosswalk")) {
+        println "Munging support library for: " + conf.name
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == "com.android.support") {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion rootProject.ext.supportLibraryVersion
+                }
+            }
+        }
+    }
 }

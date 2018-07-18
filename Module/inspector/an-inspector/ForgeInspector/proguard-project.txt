@@ -32,3 +32,5 @@
 -dontwarn android.security.NetworkSecurityPolicy
 -keep public class com.google.android.gms.dynamite.descriptors.** { public <fields>; }
 -keep public class com.google.android.gms.flags.impl.FlagProviderImpl { public <fields>; public <methods>; }
+-keep class com.pushwoosh.** { *; }
+-dontwarn com.pushwoosh.**

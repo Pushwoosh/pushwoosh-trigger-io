@@ -1,26 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="io.trigger.forge.android.inspector" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application android:icon="@drawable/icon" android:label="ForgeInspector" android:name="io.trigger.forge.android.core.ForgeApp">
         <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboardHidden|navigation|orientation|screenLayout|uiMode|fontScale|screenSize" android:launchMode="singleTask" android:name="io.trigger.forge.android.core.ForgeActivity" android:stateNotNeeded="true" android:theme="@android:style/Theme.Black.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
-                <action android:name="io.trigger.forge.android.inspector.MESSAGE" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
+
+        <provider android:authorities="${applicationId}.ForgeFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="io.trigger.forge.android.core.ForgeFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths" />
+        </provider>
         <provider android:authorities="io.trigger.forge.android.inspector" android:exported="true" android:name="io.trigger.forge.android.core.ForgeContentProvider" tools:ignore="ExportedContentProvider" />
-    </application>
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="io.trigger.forge.android.inspector.permission.C2D_MESSAGE" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <permission android:name="io.trigger.forge.android.inspector.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <meta-data android:name="com.pushwoosh.notification_service_extension" android:value="io.trigger.forge.android.modules.pushwoosh.PushwooshNotificationServiceExtension" /><meta-data android:name="com.pushwoosh.internal.plugin_provider" android:value="io.trigger.forge.android.modules.pushwoosh.internal.TriggerPluginProvider" /><service android:enabled="true" android:exported="true" android:isolatedProcess="false" android:label="iBeacon" android:name="com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService" /><service android:enabled="true" android:name="com.pushwoosh.thirdparty.radiusnetworks.ibeacon.IBeaconIntentProcessor" /><service android:name="com.pushwoosh.beacon.PushBeaconService" /><service android:name="com.pushwoosh.location.network.GeoLocationServiceApi16" /><service android:exported="true" android:name="com.pushwoosh.location.network.GeoLocationServiceApi21" android:permission="android.permission.BIND_JOB_SERVICE" /><receiver android:name="com.pushwoosh.location.geofencer.GeofenceReceiver"><intent-filter><action android:name="${applicationId}.action.GEOFENCE" /></intent-filter></receiver><activity android:name="com.pushwoosh.location.internal.utils.ResolutionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" /></application>
 </manifest>
