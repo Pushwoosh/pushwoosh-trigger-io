@@ -3,7 +3,7 @@
 	"name": "Sample App with Pushwoosh",
 	"author": "Pushwoosh",
 	"version": "1.0",
-	"platform_version": "v2.6.4",
+	"platform_version": "v2.6.8",
 	"description": "An empty app created by default",
 	"core": {
 		"general": {
@@ -23,7 +23,7 @@
 	},
 	"modules": {
 		"pushwoosh": {
-			"version": "3.0.1"
+			"version": "3.0.10"
 		}
 	}
 }

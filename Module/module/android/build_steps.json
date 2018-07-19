@@ -161,6 +161,11 @@
        }
     },
     {
+       "do": {
+           "android_add_gradle_dependency": "com.android.support:support-v4:27.+"
+       }
+    },
+    {
         "do": {
             "android_add_proguard_rule": "-keep class * extends java.util.ListResourceBundle { protected Object[][] getContents(); }"
         }
