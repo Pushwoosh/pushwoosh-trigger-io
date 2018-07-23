@@ -1,8 +1,8 @@
 {
-	"changes": "* Android SDK version updated to 5.5.5\n* iOS SDK version updated to 5.5.4",
+  "changes": "### Fixed\n* Trigger.io platform v2.6.8 build issues\n\n### Updated\n* Android SDK version updated to 5.8.3\n* iOS SDK version updated to 5.8.1",
 	"description": "Pushwoosh push notifications module",
 	"min_platform_version": "v2.6.3",
 	"namespace": "pushwoosh",
 	"platform_version": "v2.6.8",
-	"version": "3.0.5"
+  "version": "3.1.0"
 }

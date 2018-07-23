@@ -12,7 +12,7 @@
 #import <UserNotifications/UserNotifications.h>
 #endif
 
-#define PUSHWOOSH_VERSION @"5.5.4"
+#define PUSHWOOSH_VERSION @"5.8.1"
 
 
 @class PushNotificationManager;
@@ -122,14 +122,14 @@ typedef void (^PushwooshErrorHandler)(NSError *error);
  
  @param code In-App code
  */
-- (void)onInAppClosed:(NSString *)code;
+- (void)onInAppClosed:(NSString *)code __attribute__((deprecated("Use PWRichMediaPresentingDelegate protocol from PWRichMediaManager.h")));
 
 /**
  Tells the delegate that In-App with specified code has been displayed
  
  @param code In-App code
  */
-- (void)onInAppDisplayed:(NSString *)code;
+- (void)onInAppDisplayed:(NSString *)code __attribute__((deprecated("Use PWRichMediaPresentingDelegate protocol from PWRichMediaManager.h")));
 
 @end
 
@@ -160,7 +160,7 @@ typedef void (^PushwooshErrorHandler)(NSError *error);
 @end
 
 /**
- `PushNotificationManager` class offers access to the singletone-instance of the push manager responsible for registering the device with the APS servers, receiving and processing push notifications.
+ `PushNotificationManager` class offers access to the singleton-instance of the push manager responsible for registering the device with the APS servers, receiving and processing push notifications.
  */
 @interface PushNotificationManager : NSObject {
 }
@@ -372,7 +372,7 @@ typedef void (^PushwooshErrorHandler)(NSError *error);
 
 - (void)handlePushRegistrationFailure:(NSError *)error;
 
-//if the push is received while the app is running.
+//If the push is received while the app is running. Call it only for iOS version < 10. For iOS 10 and higher use notificationCenterDelegate.
 - (BOOL)handlePushReceived:(NSDictionary *)userInfo;
 
 /**
