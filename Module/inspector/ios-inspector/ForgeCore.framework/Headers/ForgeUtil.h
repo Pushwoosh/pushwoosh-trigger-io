@@ -10,6 +10,13 @@
 
 @interface ForgeUtil : NSObject
 
+@property (class, nonatomic, assign, readonly) BOOL isIphone;
+@property (class, nonatomic, assign, readonly) BOOL isIpad;
+@property (class, nonatomic, assign, readonly) BOOL isDeviceWithNotch;
+
++ (BOOL)isIphone;
++ (BOOL)isDeviceWithNotch;
+
 + (BOOL) url:(NSString*)url matchesPattern:(NSString*)pattern;
 
 @end

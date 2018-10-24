@@ -17,42 +17,72 @@
 + (void)applicationDidReceiveMemoryWarning:(UIApplication *)application;
 + (void)applicationWillTerminate:(UIApplication *)application;
 + (void)applicationSignificantTimeChange:(UIApplication *)application;
+
 + (void)application:(UIApplication *)application willChangeStatusBarOrientation:(UIInterfaceOrientation)newStatusBarOrientation duration:(NSTimeInterval)duration;
 + (void)application:(UIApplication *)application didChangeStatusBarOrientation:(UIInterfaceOrientation)oldStatusBarOrientation;
 + (void)application:(UIApplication *)application willChangeStatusBarFrame:(CGRect)newStatusBarFrame;
 + (void)application:(UIApplication *)application didChangeStatusBarFrame:(CGRect)oldStatusBarFrame;
+
 + (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error;
 + (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification;
+
 + (void)applicationProtectedDataWillBecomeUnavailable:(UIApplication *)application;
 + (void)applicationProtectedDataDidBecomeAvailable:(UIApplication *)application;
 
 + (void)application:(UIApplication *)application preDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 + (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
++ (void)application:(UIApplication *)application postDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 + (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken;
 + (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo;
+
 + (void)applicationDidEnterBackground:(UIApplication *)application;
 + (void)applicationWillEnterForeground:(UIApplication *)application;
 + (void)applicationWillResume:(UIApplication *)application;
 + (void)applicationIsReloading;
+
++ (void)launchImageLoad;
 + (void)preFirstWebViewLoad;
 + (void)firstWebViewLoad;
+
 + (NSNumber*)onLoadInitialPage;
+
 + (NSNumber*)application:(UIApplication *)application handleOpenURL:(NSURL *)url;
 + (NSNumber*)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
-+ (NSNumber*)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
+
 + (NSNumber*)supportedInterfaceOrientations;
-+ (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration;
+
 + (NSNumber*)canBecomeFirstResponder;
 + (NSNumber*)canResignFirstResponder;
+
 + (void)remoteControlReceivedWithEvent:(UIEvent *) receivedEvent;
+
 + (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings;
-+ (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)userInfo completionHandler:(void (^)())completionHandler;
-+ (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)())completionHandler;
++ (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)userInfo completionHandler:(void (^)(void))completionHandler;
++ (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)(void))completionHandler;
+
 + (NSNumber*)prefersStatusBarHidden;
 + (NSNumber*)preferredStatusBarStyle;
+
 + (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 + (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event;
 + (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
 + (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
+
++ (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection
+			  withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator;
++ (void)viewWillTransitionToSize:(CGSize)size
+	   withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator;
+
++ (NSNumber*)webview:(UIWebView *)webview shouldStartLoadWithRequest:(NSURLRequest*)request navigationType:(UIWebViewNavigationType)navigationType;
+
++ (void)keyboardWillShow:(NSNotification*)notification;
++ (void)keyboardWillHide:(NSNotification*)notification;
++ (void)keyboardDidShow:(NSNotification*)notification;
++ (void)keyboardDidHide:(NSNotification*)notification;
+
+// deprecated
++ (NSNumber*)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
++ (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration;
++ (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation;
 
 @end

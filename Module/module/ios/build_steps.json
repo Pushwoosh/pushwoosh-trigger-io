@@ -31,7 +31,7 @@
   {
     "do": {
         "add_ios_system_framework": {
-            "framework": "libstdc++.dylib"
+            "framework": "libc++.dylib"
         }
     }
   }

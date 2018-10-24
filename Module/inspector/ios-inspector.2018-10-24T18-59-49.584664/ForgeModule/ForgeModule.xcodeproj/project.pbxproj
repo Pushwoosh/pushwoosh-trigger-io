@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B354F1E191B93BE00680912 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B354F1D191B93BE00680912 /* Security.framework */; };
+		46BDB7BA1CEEF277004F063E /* Pushwoosh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BDB7B91CEEF277004F063E /* Pushwoosh.a */; };
+		50E625D019E92C0200C18FA4 /* ForgeCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E625CF19E92C0200C18FA4 /* ForgeCore.framework */; };
+		849BA2C319289C8200DFAAAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849BA2C219289C8200DFAAAE /* CoreLocation.framework */; };
+		B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B6D5115C13D5200854074 /* Foundation.framework */; };
+		B3CC61F21716ECB500A1A8EF /* pushwoosh_API.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC61F01716ECB500A1A8EF /* pushwoosh_API.m */; };
+		B3CC61F41716ECBB00A1A8EF /* pushwoosh_EventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC61F31716ECBB00A1A8EF /* pushwoosh_EventListener.m */; };
+		B3FC51F815C151E5003574D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC51F715C151E5003574D9 /* UIKit.framework */; };
+		B3FC51FF15C1523D003574D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC51FE15C1523D003574D9 /* CoreGraphics.framework */; };
+		B3FC524215C177EA003574D9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC524115C177EA003574D9 /* AssetsLibrary.framework */; };
+		B3FC524815C17B2C003574D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC524715C17B2C003574D9 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B354F1C191B93A400680912 /* PushNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationManager.h; sourceTree = "<group>"; };
+		1B354F1D191B93BE00680912 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1BA5A4A81FD934EC009098E0 /* Pushwoosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pushwoosh.h; sourceTree = "<group>"; };
+		1BA5A4A91FD934EC009098E0 /* PWLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWLog.h; sourceTree = "<group>"; };
+		1BA5A4AA1FD934EC009098E0 /* PWInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWInbox.h; sourceTree = "<group>"; };
+		1BA5A4AB1FD934EC009098E0 /* PWInAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWInAppManager.h; sourceTree = "<group>"; };
+		46BDB7B91CEEF277004F063E /* Pushwoosh.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Pushwoosh.a; sourceTree = "<group>"; };
+		50E625CF19E92C0200C18FA4 /* ForgeCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForgeCore.framework; path = ../ForgeCore.framework; sourceTree = "<group>"; };
+		849BA2C219289C8200DFAAAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B31B6D4E15C13D5200854074 /* libForgeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libForgeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31B6D5115C13D5200854074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B31B6D6E15C1467100854074 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B3CC61EF1716ECB500A1A8EF /* pushwoosh_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushwoosh_API.h; sourceTree = "<group>"; };
+		B3CC61F01716ECB500A1A8EF /* pushwoosh_API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushwoosh_API.m; sourceTree = "<group>"; };
+		B3CC61F11716ECB500A1A8EF /* pushwoosh_EventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushwoosh_EventListener.h; sourceTree = "<group>"; };
+		B3CC61F31716ECBB00A1A8EF /* pushwoosh_EventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushwoosh_EventListener.m; sourceTree = "<group>"; };
+		B3FC51F715C151E5003574D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3FC51FE15C1523D003574D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3FC524115C177EA003574D9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B3FC524715C17B2C003574D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31B6D4B15C13D5200854074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BDB7BA1CEEF277004F063E /* Pushwoosh.a in Frameworks */,
+				849BA2C319289C8200DFAAAE /* CoreLocation.framework in Frameworks */,
+				1B354F1E191B93BE00680912 /* Security.framework in Frameworks */,
+				B3FC524815C17B2C003574D9 /* SystemConfiguration.framework in Frameworks */,
+				50E625D019E92C0200C18FA4 /* ForgeCore.framework in Frameworks */,
+				B3FC524215C177EA003574D9 /* AssetsLibrary.framework in Frameworks */,
+				B3FC51FF15C1523D003574D9 /* CoreGraphics.framework in Frameworks */,
+				B3FC51F815C151E5003574D9 /* UIKit.framework in Frameworks */,
+				B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31B6D4315C13D5200854074 = {
+			isa = PBXGroup;
+			children = (
+				1BA5A4A81FD934EC009098E0 /* Pushwoosh.h */,
+				1BA5A4AB1FD934EC009098E0 /* PWInAppManager.h */,
+				1BA5A4AA1FD934EC009098E0 /* PWInbox.h */,
+				1BA5A4A91FD934EC009098E0 /* PWLog.h */,
+				1B354F1C191B93A400680912 /* PushNotificationManager.h */,
+				B3CC61EF1716ECB500A1A8EF /* pushwoosh_API.h */,
+				B3CC61F01716ECB500A1A8EF /* pushwoosh_API.m */,
+				B3CC61F11716ECB500A1A8EF /* pushwoosh_EventListener.h */,
+				B3CC61F31716ECBB00A1A8EF /* pushwoosh_EventListener.m */,
+				B31B6D5015C13D5200854074 /* Frameworks */,
+				B31B6D4F15C13D5200854074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31B6D4F15C13D5200854074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31B6D4E15C13D5200854074 /* libForgeModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31B6D5015C13D5200854074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46BDB7B91CEEF277004F063E /* Pushwoosh.a */,
+				50E625CF19E92C0200C18FA4 /* ForgeCore.framework */,
+				849BA2C219289C8200DFAAAE /* CoreLocation.framework */,
+				1B354F1D191B93BE00680912 /* Security.framework */,
+				B3FC524715C17B2C003574D9 /* SystemConfiguration.framework */,
+				B3FC524115C177EA003574D9 /* AssetsLibrary.framework */,
+				B3FC51FE15C1523D003574D9 /* CoreGraphics.framework */,
+				B3FC51F715C151E5003574D9 /* UIKit.framework */,
+				B31B6D5115C13D5200854074 /* Foundation.framework */,
+				B31B6D6E15C1467100854074 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31B6D4D15C13D5200854074 /* ForgeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31B6D5C15C13D5200854074 /* Build configuration list for PBXNativeTarget "ForgeModule" */;
+			buildPhases = (
+				B31B6D4A15C13D5200854074 /* Sources */,
+				B31B6D4B15C13D5200854074 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForgeModule;
+			productName = ForgeCore;
+			productReference = B31B6D4E15C13D5200854074 /* libForgeModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31B6D4515C13D5200854074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Trigger Corp";
+			};
+			buildConfigurationList = B31B6D4815C13D5200854074 /* Build configuration list for PBXProject "ForgeModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B31B6D4315C13D5200854074;
+			productRefGroup = B31B6D4F15C13D5200854074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31B6D4D15C13D5200854074 /* ForgeModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31B6D4A15C13D5200854074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CC61F21716ECB500A1A8EF /* pushwoosh_API.m in Sources */,
+				B3CC61F41716ECBB00A1A8EF /* pushwoosh_EventListener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B31B6D5A15C13D5200854074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64 i386 x86_64";
+			};
+			name = Debug;
+		};
+		B31B6D5B15C13D5200854074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64 i386 x86_64";
+			};
+			name = Release;
+		};
+		B31B6D5D15C13D5200854074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/..\"",
+					"$(PROJECT_DIR)",
+					"/Users/Max/Desktop/Projects/Pushwoosh/Sources/SDKSamples/Trigger.io/Module/inspector/ios-inspector",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForgeModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = "./**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/arellomobile/workspace/Pushwoosh/SDKSamples/Trigger.io/Module/inspector/ios-inspector",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		B31B6D5E15C13D5200854074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/..\"",
+					"$(PROJECT_DIR)",
+					"/Users/Max/Desktop/Projects/Pushwoosh/Sources/SDKSamples/Trigger.io/Module/inspector/ios-inspector",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForgeModule-Prefix.pch";
+				HEADER_SEARCH_PATHS = "./**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/arellomobile/workspace/Pushwoosh/SDKSamples/Trigger.io/Module/inspector/ios-inspector",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31B6D4815C13D5200854074 /* Build configuration list for PBXProject "ForgeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31B6D5A15C13D5200854074 /* Debug */,
+				B31B6D5B15C13D5200854074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31B6D5C15C13D5200854074 /* Build configuration list for PBXNativeTarget "ForgeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31B6D5D15C13D5200854074 /* Debug */,
+				B31B6D5E15C13D5200854074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31B6D4515C13D5200854074 /* Project object */;
+}

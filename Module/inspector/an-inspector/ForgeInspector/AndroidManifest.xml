@@ -5,7 +5,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <application android:icon="@drawable/icon" android:label="ForgeInspector" android:name="io.trigger.forge.android.core.ForgeApp">
+    <application android:icon="@mipmap/ic_launcher" android:label="ForgeInspector" android:name="io.trigger.forge.android.core.ForgeApp">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboardHidden|navigation|orientation|screenLayout|uiMode|fontScale|screenSize" android:launchMode="singleTask" android:name="io.trigger.forge.android.core.ForgeActivity" android:stateNotNeeded="true" android:theme="@android:style/Theme.Black.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
