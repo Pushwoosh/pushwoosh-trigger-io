@@ -3,8 +3,7 @@
         "com.pushwoosh:pushwoosh:5.9.3", 
         "com.pushwoosh:pushwoosh-amazon:5.9.3", 
         "com.pushwoosh:pushwoosh-badge:5.9.3", 
-        "com.pushwoosh:pushwoosh-gcm:5.9.3", 
-        "com.google.android.gms:play-services-gcm:+", 
+        "com.google.firebase:firebase-core:+", 
         "com.google.android.gms:play-services-location:+", 
         "com.android.support:support-v4:27.+"
     ]
