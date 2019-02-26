@@ -84,6 +84,7 @@ public class FirebaseInitProvider extends ContentProvider {
                 .build();
 
         FirebaseApp.initializeApp(context, options);
+        PWLog.debug( "Firebase init success");
     }
 
     private String getSenderId(JSONObject jsonObject) throws JSONException {
