@@ -1,9 +1,10 @@
 {
     "dependencies": [
-        "com.pushwoosh:pushwoosh:5.9.3", 
-        "com.pushwoosh:pushwoosh-amazon:5.9.3", 
-        "com.pushwoosh:pushwoosh-badge:5.9.3", 
-        "com.google.firebase:firebase-core:+", 
+        "com.pushwoosh:pushwoosh:5.12.1", 
+        "com.pushwoosh:pushwoosh-amazon:5.12.1", 
+        "com.pushwoosh:pushwoosh-badge:5.12.1", 
+        "com.google.firebase:firebase-core:+",
+        "com.google.firebase:firebase-messaging:+", 
         "com.google.android.gms:play-services-location:+", 
         "com.android.support:support-v4:27.+"
     ]
