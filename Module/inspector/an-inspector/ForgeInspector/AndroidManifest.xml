@@ -18,7 +18,6 @@
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths" />
         </provider>
         <provider android:authorities="io.trigger.forge.android.inspector" android:exported="true" android:name="io.trigger.forge.android.core.ForgeContentProvider" tools:ignore="ExportedContentProvider" />
-        <provider android:name="io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider"/>
         <provider
 			android:name="io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider"
 			android:authorities="${applicationId}.FirebaseInitProvider"
