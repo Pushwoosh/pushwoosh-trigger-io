@@ -12,6 +12,7 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.pushwoosh.internal.utils.PWLog;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -36,7 +37,7 @@ public class FirebaseInitProvider extends ContentProvider {
             return;
         }
         if (!FirebaseApp.getApps(context).isEmpty()) {
-            PWLog.debug( "Firebase already init");
+            PWLog.debug("Firebase already init");
             return;
         }
         String json = readGoogleServiceJsonFromAssets(context);
@@ -45,7 +46,7 @@ public class FirebaseInitProvider extends ContentProvider {
         try {
             JSONObject jsonObject = new JSONObject(json);
             String gcmSenderId = getSenderId(jsonObject);
-            String applicationId = getApplicationId(jsonObject);
+            String applicationId = getApplicationId(jsonObject, context);
             initFirebaseApp(context, applicationId, gcmSenderId);
         } catch (JSONException e) {
             PWLog.error(TAG, "can not parse info for GCM init:" + e);
@@ -84,7 +85,7 @@ public class FirebaseInitProvider extends ContentProvider {
                 .build();
 
         FirebaseApp.initializeApp(context, options);
-        PWLog.debug( "Firebase init success");
+        PWLog.debug("Firebase init success");
     }
 
     private String getSenderId(JSONObject jsonObject) throws JSONException {
@@ -93,13 +94,29 @@ public class FirebaseInitProvider extends ContentProvider {
                 .getString("project_number");
     }
 
-    private String getApplicationId(JSONObject jsonObject) throws JSONException {
-        return jsonObject
-                .getJSONArray("client")
-                .getJSONObject(0)
-                .getJSONArray("oauth_client")
-                .getJSONObject(0)
-                .getString("client_id");
+    private String getApplicationId(JSONObject jsonObject, Context context) throws JSONException {
+        JSONArray clientList = jsonObject
+                .getJSONArray("client");
+        if (clientList == null) {
+            throw new JSONException("can not find client list");
+        }
+        for (int i = 0; i < clientList.length(); i++) {
+            JSONObject client = clientList.getJSONObject(i);
+            String packageName = client
+                    .getJSONObject("client_info")
+                    .getJSONObject("android_client_info")
+                    .getString("package_name");
+
+            String currentPackageName = context.getPackageName();
+            if (currentPackageName.equals(packageName)) {
+                return client
+                        .getJSONArray("oauth_client")
+                        .getJSONObject(0)
+                        .getString("client_id");
+            }
+        }
+        throw new JSONException("can not find client list");
+
     }
 
     @Nullable
