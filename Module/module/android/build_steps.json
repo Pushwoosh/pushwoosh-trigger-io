@@ -72,8 +72,9 @@
                 "element": {
                     "attributes": {
                         "android:name": "io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider",
-                        "authorities": "${applicationId}.FirebaseInitProvider",
-                        "initOrder": "40"
+                        "android:authorities": "${applicationId}.FirebaseInitProvider",
+                        "android:initOrder": "40",
+                        "android:exported":"false"
                     },
                     "tag": "provider"
                 }
@@ -146,19 +147,29 @@
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh:5.9.3"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh:5.12.1"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-amazon:5.9.3"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-amazon:5.12.1"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-badge:5.9.3"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-badge:5.12.1"
        }
     },
+    {
+        "do": {
+            "android_add_gradle_dependency": "com.google.firebase:firebase-core:+"
+        }
+     },
+     {
+        "do": {
+            "android_add_gradle_dependency": "com.google.firebase:firebase-messaging:+"
+        }
+     },
     {
        "do": {
            "android_add_gradle_dependency": "com.google.android.gms:play-services-location:+"
