@@ -71,6 +71,20 @@
             "android_add_to_application_manifest": {
                 "element": {
                     "attributes": {
+                        "android:name": "io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider",
+                        "authorities": "${applicationId}.FirebaseInitProvider",
+                        "initOrder": "40"
+                    },
+                    "tag": "provider"
+                }
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
                         "android:name": "com.pushwoosh.location.network.GeoLocationServiceApi16"
                     },
                     "tag": "service"
@@ -143,16 +157,6 @@
     {
        "do": {
            "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-badge:5.9.3"
-       }
-    },
-    {
-       "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-gcm:5.9.3"
-       }
-    },
-    {
-       "do": {
-           "android_add_gradle_dependency": "com.google.android.gms:play-services-gcm:+"
        }
     },
     {
