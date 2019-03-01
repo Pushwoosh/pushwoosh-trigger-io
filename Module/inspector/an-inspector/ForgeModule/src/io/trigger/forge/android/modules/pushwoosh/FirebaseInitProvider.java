@@ -57,7 +57,7 @@ public class FirebaseInitProvider extends ContentProvider {
         StringBuilder result = new StringBuilder();
         BufferedReader reader = null;
         try {
-            InputStream inputStream = context.getAssets().open("google-services.json");
+            InputStream inputStream = context.getAssets().open("src/google-services.json");
             reader = new BufferedReader(new InputStreamReader(inputStream));
             String mLine;
             while ((mLine = reader.readLine()) != null) {
