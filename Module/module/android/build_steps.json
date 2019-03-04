@@ -71,6 +71,21 @@
             "android_add_to_application_manifest": {
                 "element": {
                     "attributes": {
+                        "android:name": "io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider",
+                        "android:authorities": "${applicationId}.FirebaseInitProvider",
+                        "android:initOrder": "40",
+                        "android:exported":"false"
+                    },
+                    "tag": "provider"
+                }
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_to_application_manifest": {
+                "element": {
+                    "attributes": {
                         "android:name": "com.pushwoosh.location.network.GeoLocationServiceApi16"
                     },
                     "tag": "service"
@@ -132,29 +147,29 @@
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh:5.9.3"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh:5.12.1"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-amazon:5.9.3"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-amazon:5.12.1"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-badge:5.9.3"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-badge:5.12.1"
        }
     },
     {
-       "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-gcm:5.9.3"
-       }
-    },
-    {
-       "do": {
-           "android_add_gradle_dependency": "com.google.android.gms:play-services-gcm:+"
-       }
-    },
+        "do": {
+            "android_add_gradle_dependency": "com.google.firebase:firebase-core:+"
+        }
+     },
+     {
+        "do": {
+            "android_add_gradle_dependency": "com.google.firebase:firebase-messaging:+"
+        }
+     },
     {
        "do": {
            "android_add_gradle_dependency": "com.google.android.gms:play-services-location:+"
