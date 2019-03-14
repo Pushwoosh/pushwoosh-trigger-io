@@ -17,13 +17,13 @@
 			"package_name": "com.pushoosh.demoapp"
 		},
 		"ios": {
-			"minimum_version": "9.3",
+			"minimum_version": "10.0",
 			"package_name": "com.pushwoosh.demoapp"
 		}
 	},
 	"modules": {
 		"pushwoosh": {
-			"version": "3.1.0"
+			"version": "3.3.0"
 		}
 	}
 }

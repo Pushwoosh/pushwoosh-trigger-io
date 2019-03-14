@@ -49,7 +49,7 @@ forge.internal.addEventListener("pushwoosh.pushAccepted",
     }
 );
 
-forge.pushwoosh.onDeviceReady({"pw_appid":"PW_APPLICATION", "gcm_id":"GCM_SENDER_ID"});
+forge.pushwoosh.onDeviceReady({"pw_appid":"DC533-F5DA4", "gcm_id":"487424016967"});
 
 forge.pushwoosh.registerDevice();
 
