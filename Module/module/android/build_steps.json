@@ -71,9 +71,9 @@
             "android_add_to_application_manifest": {
                 "element": {
                     "attributes": {
-                        "android:name": "io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider",
-                        "android:authorities": "${applicationId}.FirebaseInitProvider",
-                        "android:initOrder": "40",
+                        "android:name": "io.trigger.forge.android.modules.pushwoosh.PushwooshFirebaseInitProvider",
+                        "android:authorities": "${applicationId}.PushwooshFirebaseInitProvider",
+                        "android:initOrder": "60",
                         "android:exported":"false"
                     },
                     "tag": "provider"

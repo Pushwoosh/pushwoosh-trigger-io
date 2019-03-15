@@ -19,10 +19,10 @@
         </provider>
         <provider android:authorities="io.trigger.forge.android.inspector" android:exported="true" android:name="io.trigger.forge.android.core.ForgeContentProvider" tools:ignore="ExportedContentProvider" />
         <provider
-			android:name="io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider"
+			android:name="io.trigger.forge.android.modules.pushwoosh.PushwooshFirebaseInitProvider"
 			android:authorities="${applicationId}.FirebaseInitProvider"
 			android:enabled="true"
 			android:exported="false"
-			android:initOrder="40" />
+			android:initOrder="60" />
     <meta-data android:name="com.pushwoosh.notification_service_extension" android:value="io.trigger.forge.android.modules.pushwoosh.PushwooshNotificationServiceExtension" /><meta-data android:name="com.pushwoosh.internal.plugin_provider" android:value="io.trigger.forge.android.modules.pushwoosh.internal.TriggerPluginProvider" /><service android:enabled="true" android:exported="true" android:isolatedProcess="false" android:label="iBeacon" android:name="com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService" /><service android:enabled="true" android:name="com.pushwoosh.thirdparty.radiusnetworks.ibeacon.IBeaconIntentProcessor" /><service android:name="com.pushwoosh.beacon.PushBeaconService" /><service android:name="com.pushwoosh.location.network.GeoLocationServiceApi16" /><service android:exported="true" android:name="com.pushwoosh.location.network.GeoLocationServiceApi21" android:permission="android.permission.BIND_JOB_SERVICE" /><receiver android:name="com.pushwoosh.location.geofencer.GeofenceReceiver"><intent-filter><action android:name="${applicationId}.action.GEOFENCE" /></intent-filter></receiver><activity android:name="com.pushwoosh.location.internal.utils.ResolutionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" /></application>
 </manifest>
