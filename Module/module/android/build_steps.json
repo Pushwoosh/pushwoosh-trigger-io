@@ -30,117 +30,12 @@
             "android_add_to_application_manifest": {
                 "element": {
                     "attributes": {
-                        "android:enabled": "true",
-                        "android:exported": "true",
-                        "android:isolatedProcess": "false",
-                        "android:label": "iBeacon",
-                        "android:name": "com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService"
-                    },
-                    "tag": "service"
-                }
-            }
-        }
-    },
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:enabled": "true",
-                        "android:name": "com.pushwoosh.thirdparty.radiusnetworks.ibeacon.IBeaconIntentProcessor"
-                    },
-                    "tag": "service"
-                }
-            }
-        }
-    },
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.beacon.PushBeaconService"
-                    },
-                    "tag": "service"
-                }
-            }
-        }
-    },
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
                         "android:name": "io.trigger.forge.android.modules.pushwoosh.FirebaseInitProvider",
                         "android:authorities": "${applicationId}.FirebaseInitProvider",
                         "android:initOrder": "40",
                         "android:exported":"false"
                     },
                     "tag": "provider"
-                }
-            }
-        }
-    },
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.location.network.GeoLocationServiceApi16"
-                    },
-                    "tag": "service"
-                }
-            }
-        }
-    },
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:exported": "true",
-                        "android:name": "com.pushwoosh.location.network.GeoLocationServiceApi21",
-                        "android:permission": "android.permission.BIND_JOB_SERVICE"
-                    },
-                    "tag": "service"
-                }
-            }
-        }
-    },
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.location.geofencer.GeofenceReceiver"
-                    },
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "attributes": {
-                                        "android:name": "${applicationId}.action.GEOFENCE"
-                                    },
-                                    "tag": "action"
-                                }
-                            ],
-                            "tag": "intent-filter"
-                        }
-                    ],
-                    "tag": "receiver"
-                }
-            }
-        }
-    },
-    {
-        "do": {
-            "android_add_to_application_manifest": {
-                "element": {
-                    "attributes": {
-                        "android:name": "com.pushwoosh.location.internal.utils.ResolutionActivity",
-                        "android:theme": "@android:style/Theme.Translucent.NoTitleBar"
-                    },
-                    "tag": "activity"
                 }
             }
         }
@@ -170,11 +65,6 @@
             "android_add_gradle_dependency": "com.google.firebase:firebase-messaging:+"
         }
      },
-    {
-       "do": {
-           "android_add_gradle_dependency": "com.google.android.gms:play-services-location:+"
-       }
-    },
     {
        "do": {
            "android_add_gradle_dependency": "com.android.support:support-v4:27.+"

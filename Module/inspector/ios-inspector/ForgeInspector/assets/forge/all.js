@@ -71,23 +71,6 @@ forge.pushwoosh = {
         forge.internal.call('pushwoosh.unregisterDevice', {}, success, error);
     },
 
-//Function: startLocationTracking
-//Starts geolocation based push notifications. You need to configure Geozones in Pushwoosh Control panel.
-//
-//Example:
-//(start code)
-//  forge.pushwoosh.startLocationTracking();
-//(end)
-    startLocationTracking: function (success, error) {
-        forge.internal.call('pushwoosh.startLocationTracking', {}, success, error);
-    },
-
-//Function: stopLocationTracking
-//Stops geolocation based push notifications
-    stopLocationTracking: function (success, error) {
-        forge.internal.call('pushwoosh.stopLocationTracking', {}, success, error);
-    },
-
 //Function: setTags
 //Call this to set tags for the device
 //

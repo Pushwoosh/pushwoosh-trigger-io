@@ -17,3 +17,6 @@ Module/inspector/an-inspector/projectFilesBackup/.idea
 Module/inspector/ios-inspector/ForgeInspector.xcodeproj/project.xcworkspace/xcuserdata
 Module/inspector/ios-inspector/ForgeModule/out
 Module/inspector/ios-inspector/ForgeInspector.xcodeproj/project.xcworkspace
+an-inspector.iml
+ForgeModule.iml
+ForgeInspector.iml
