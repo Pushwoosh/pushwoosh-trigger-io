@@ -68,13 +68,6 @@
       <sourceFolder url="file://$MODULE_DIR$/flavors/vanilla/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/vanilla/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/vanilla/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/assets" type="java-test-resource" />
@@ -82,6 +75,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
@@ -89,13 +89,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
@@ -103,6 +96,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
@@ -122,8 +122,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/build/generated/not_namespaced_r_class_sources" />
-      <excludeFolder url="file://$MODULE_DIR$/build/generated/source/r" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/annotations" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/attr" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
@@ -135,7 +133,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_and_local_jars_jni" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-aidl" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-classes" />
@@ -154,64 +151,60 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:16.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-fragment:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:localbroadcastmanager:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/kai/Projects/Trigger.io/PublicSample/Module/inspector/an-inspector/ForgeModule/libs/pushwoosh-beacon_v5.9.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:loader:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics:16.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:cursoradapter:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-compat:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid:17.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.pushwoosh:pushwoosh:5.12.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: :ForgeCore-crosswalk-debug:@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.pushwoosh:pushwoosh-badge:5.12.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-location:16.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api:16.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-core:16.0.7@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.pushwoosh:pushwoosh-amazon:5.12.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-impl:16.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-places-placereport:16.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:localbroadcastmanager-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-16.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:interpolator-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common-16.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-16.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base-16.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:drawerlayout-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:coordinatorlayout-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-16.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-16.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-core-16.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:swiperefreshlayout-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base-16.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: ForgeCore-vanilla-debug:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:runtime-1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.pushwoosh:pushwoosh-badge-5.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:loader-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v4-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:viewpager-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:interpolator:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/kai/Projects/Trigger.io/PublicSample/Module/inspector/an-inspector/ForgeModule/libs/pushwoosh-location_v5.9.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:drawerlayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-v4:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging:17.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-17.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:customview-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector-17.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:13.0.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:documentfile:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:16.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.xwalk:xwalk_core_library:23.53.589.4@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier-16.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging-17.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-impl-16.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api-16.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel-1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:collections:28.0.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector-impl:17.0.5@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:print:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats-16.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.pushwoosh:pushwoosh-5.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:documentfile-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:cursoradapter-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.pushwoosh:pushwoosh-amazon-5.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:asynclayoutinflater-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:16.0.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:16.0.3@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:viewpager:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:print-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-16.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop-16.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:coordinatorlayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:customview:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:swiperefreshlayout:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector:17.0.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:16.0.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: :ForgeCore-vanilla-debug:@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core-1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api-16.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-28.0.0" level="project" />
   </component>
 </module>

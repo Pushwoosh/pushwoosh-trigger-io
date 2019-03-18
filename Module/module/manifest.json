@@ -1,8 +1,8 @@
 {
-	"changes": "### Updated\n* Remove Geozones (test build)",
+  "changes": "test",
 	"description": "Pushwoosh push notifications module",
 	"min_platform_version": "v2.7.3",
 	"namespace": "pushwoosh",
 	"platform_version": "v2.7.3",
-	"version": "3.2.1"
+  "version": "3.2.4"
 }

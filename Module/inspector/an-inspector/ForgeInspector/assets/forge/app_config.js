@@ -1,1 +1,1 @@
-window.forge = {}; window.forge.config = {"modules": {"inspector": {"version": "1.0"}, "pushwoosh": {"version": "3.2.1", "config": {}}}}; window.forge.module_mapping = {"inspector": "inspector", "pushwoosh": "pushwoosh"};
+window.forge = {}; window.forge.config = {"modules": {"inspector": {"version": "1.0"}, "pushwoosh": {"version": "3.2.4", "config": {}}}}; window.forge.module_mapping = {"inspector": "inspector", "pushwoosh": "pushwoosh"};
