@@ -21,3 +21,6 @@ an-inspector.iml
 ForgeModule.iml
 ForgeInspector.iml
 local_config.json
+Geozones/.trigger
+Geozones/inspector/ios-inspector/ForgeInspector.xcodeproj/project.xcworkspace/xcuserdata
+Geozones/inspector/ios-inspector/ForgeModule/build

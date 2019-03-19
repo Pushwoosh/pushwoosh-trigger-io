@@ -1,0 +1,54 @@
+//
+//  ForgeApp.h
+//  ForgeCore
+//
+//  Created by Connor Dunn on 03/10/2012.
+//  Copyright (c) 2012 Trigger Corp. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "ForgeAppDelegate.h"
+
+@interface ForgeApp : NSObject {
+	//int hideStatusCount;
+}
+
+// Main webView used for Forge
+@property UIView* webView;
+
+// appConfig dictionary
+@property NSDictionary* appConfig;
+@property NSDictionary* moduleMapping;
+
+// Forge app delegate
+@property ForgeAppDelegate* appDelegate;
+
+// Forge view controller
+@property ForgeViewController* viewController;
+@property NSMutableArray* eventListeners;
+
+// Whether the inspector module is enabled - used to enable extra debug events
+@property BOOL inspectorEnabled;
+
+// The Y co-ordinate where the webview becomes visible (used to place things like the topbar)
+//@property int webviewTop;
+
+// The fake status bar element used to create the translucent glass effect on iOS 7
+//@property UIVisualEffectView *statusBarBox;
+
+// Whether we're using WKWebView
+@property BOOL useWKWebView;
+
++ (ForgeApp*)sharedApp;
+- (id)nativeEvent:(SEL)selector withArgs:(NSArray*)args;
+- (void)event:(NSString*)name withParam:(id)params;
+- (NSDictionary*)configForPlugin:(NSString*)name;
+- (NSDictionary*)configForModule:(NSString*)name;
+- (NSURL*)assetsFolderLocationWithPrefs:(NSUserDefaults*)prefs;
+- (NSURL*)bundleLocationRelativeToAssets;
+- (NSURL*)applicationSupportDirectory;
+//- (void)showStatusBarBox;
+//- (void)hideStatusBarBox;
+- (BOOL)flag:(NSString*)name;
+
+@end

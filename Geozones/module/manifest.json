@@ -1,0 +1,7 @@
+{
+    "description": "My module template", 
+    "min_platform_version": "v2.7.6", 
+    "namespace": "pushwoosh_geozones", 
+    "platform_version": "v2.7.6", 
+    "version": "0.1"
+}

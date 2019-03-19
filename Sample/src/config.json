@@ -3,7 +3,7 @@
 	"name": "Sample App with Pushwoosh",
 	"author": "Pushwoosh",
 	"version": "1.0",
-	"platform_version": "v2.7.3",
+	"platform_version": "v2.7.6",
 	"description": "An empty app created by default",
 	"core": {
 		"general": {
@@ -24,6 +24,9 @@
 	"modules": {
 		"pushwoosh": {
 			"version": "3.2.4"
+		},
+		"pushwoosh_geozones": {
+			"version": "0.1"
 		}
 	}
 }

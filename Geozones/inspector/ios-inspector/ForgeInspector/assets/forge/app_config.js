@@ -1,0 +1,1 @@
+window.forge = {}; window.forge.config = {"modules": {"pushwoosh_geozones": {"version": "0.1", "config": {}}, "inspector": {"version": "1.0"}}}; window.forge.module_mapping = {"pushwoosh_geozones": "pushwoosh_geozones", "inspector": "inspector"};

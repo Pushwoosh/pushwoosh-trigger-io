@@ -53,6 +53,8 @@ forge.pushwoosh.onDeviceReady({"pw_appid":"94F21-6F0D4", "gcm_id":"803445993631"
 
 forge.pushwoosh.registerDevice();
 
+forge.pushwoosh_geozones.startLocationTracking();
+
 forge.pushwoosh.getHWID(
     function (hwid) {
         forge.logging.log('HWID : ' + hwid);
