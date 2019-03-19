@@ -7,7 +7,7 @@ Pushwoosh Trigger.io
 
 ### Guide
 
-https://docs.pushwoosh.com/docs/triggerio
+https://www.pushwoosh.com/platform-docs/pushwoosh-sdk/cross-platform-frameworks/trigger.io
 
 ### Module info
 
