@@ -1,0 +1,1 @@
+[{"outputType":{"type":"AAPT_FRIENDLY_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0","enabled":true,"outputFile":"ForgeModule-vanilla-release.aar","fullName":"vanillaRelease","baseName":"vanilla-release"},"path":"AndroidManifest.xml","properties":{"packageId":"io.trigger.forge.android.modules.pushwoosh_geozones","split":""}}]

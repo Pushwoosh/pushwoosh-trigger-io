@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="placeholder_to_fix_gradle_bug" type="id"/>
+</resources>
