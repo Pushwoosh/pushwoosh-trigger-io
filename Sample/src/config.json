@@ -14,7 +14,7 @@
 		},
 		"android": {
 			"minimum_version": "16",
-			"package_name": "com.pushoosh.demoapp"
+			"package_name": "com.pushwoosh.demoapp"
 		},
 		"ios": {
 			"minimum_version": "10.0",
@@ -23,10 +23,14 @@
 	},
 	"modules": {
 		"pushwoosh": {
-			"version": "3.2.4"
+			"version": "3.2.5"
 		},
 		"pushwoosh_geozones": {
-			"version": "0.1"
+			"version": "0.1.3",
+			"config": {
+				"background_usage_description": "This demo uses location services for Pushwoosh Geozones",
+				"foreground_usage_description": "This demo uses location services for Pushwoosh Geozones"
+			}
 		}
 	}
 }

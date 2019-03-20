@@ -24,3 +24,6 @@ local_config.json
 Geozones/.trigger
 Geozones/inspector/ios-inspector/ForgeInspector.xcodeproj/project.xcworkspace/xcuserdata
 Geozones/inspector/ios-inspector/ForgeModule/build
+Geozones/inspector/an-inspector/.gradle
+Geozones/inspector/an-inspector/.idea
+Module/.idea

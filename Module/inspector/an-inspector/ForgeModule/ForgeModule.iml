@@ -8,11 +8,11 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="vanillaDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleVanillaDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileVanillaDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="crosswalkDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleCrosswalkDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileCrosswalkDebugSources" />
         <afterSyncTasks>
-          <task>generateVanillaDebugSources</task>
+          <task>generateCrosswalkDebugSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/res" />
@@ -21,67 +21,67 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/build/intermediates/classes/vanilla/debug" />
-    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/vanilla/debug" />
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/crosswalk/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/crosswalk/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/vanilla/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/vanilla/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/vanilla/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/vanilla/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/vanilla/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/vanilla/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/vanilla/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanillaDebug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanillaDebug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanillaDebug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanillaDebug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanillaDebug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanillaDebug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanillaDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/vanilla/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/vanilla/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/vanilla/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/vanilla/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/vanilla/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/vanilla/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/vanilla/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanillaDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanillaDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanillaDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanillaDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanillaDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanillaDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanillaDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/vanilla/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanillaDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanillaDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanillaDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanillaDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanillaDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanillaDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanillaDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanilla/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanilla/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanilla/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanilla/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/flavors/vanilla/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanilla/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/vanilla/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testVanilla/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestVanilla/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/crosswalk/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/crosswalk/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/crosswalk/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/crosswalk/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/crosswalk/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/crosswalk/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/crosswalk/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalkDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalkDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalkDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalkDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalkDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalkDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalkDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/crosswalk/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/crosswalk/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/crosswalk/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/crosswalk/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/crosswalk/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/crosswalk/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/crosswalk/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalkDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalkDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalkDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalkDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalkDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalkDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalkDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/crosswalk/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalkDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalkDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalkDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalkDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalkDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalkDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalkDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalk/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalk/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalk/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalk/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/flavors/crosswalk/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalk/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/crosswalk/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalk/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalk/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalk/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalk/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalk/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalk/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testCrosswalk/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalk/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalk/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalk/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalk/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalk/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalk/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestCrosswalk/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
@@ -133,6 +133,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_and_local_jars_jni" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-aidl" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-classes" />
@@ -155,6 +156,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-16.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:interpolator-28.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.xwalk:xwalk_core_library-23.53.589.4" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common-16.0.3" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-16.4.0" level="project" />
@@ -167,7 +169,6 @@
     <orderEntry type="library" name="Gradle: com.android.support:swiperefreshlayout-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base-16.0.1" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-1.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: ForgeCore-vanilla-debug:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:runtime-1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.pushwoosh:pushwoosh-badge-5.12.1" level="project" />
@@ -175,6 +176,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-v4-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:viewpager-28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: ForgeCore-crosswalk-debug:@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-17.1.0" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:customview-28.0.0" level="project" />

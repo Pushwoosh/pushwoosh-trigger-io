@@ -1,6 +1,9 @@
 {
-	"this_module": {
-		"config": {}
-	},
-	"modules": {}
+    "this_module": {
+        "config": {
+            "foreground_usage_description": "When In Use Usage Description",
+            "background_usage_description": "Always Usage Description"
+        }
+    },
+    "modules": {}
 }

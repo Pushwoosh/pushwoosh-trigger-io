@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "foreground_usage_description": {
+            "title": "When In Use Usage Description [iOS]",
+            "description": "This key lets you describe the reason your app accesses the user's location when the app is in the foreground.",
+            "type": "string",
+            "required": true
+        },
+        "background_usage_description": {
+            "title": "Always Usage Description [iOS]",
+            "description": "This key lets you describe the reason your app accesses the user's location when the app is in the background.",
+            "type": "string",
+            "required": true
+        }
+    }
+}

@@ -114,7 +114,7 @@ public class PushwooshFirebaseInitProvider extends ContentProvider {
 
     private JSONObject readGoogleServiceJsonFromAssets(Context context) {
         try {
-            InputStream inputStream = context.getAssets().open("google-services.json");
+            InputStream inputStream = context.getAssets().open("src/google-services.json");
             byte[] buffer = new byte[inputStream.available()];
             inputStream.read(buffer);
             return new JSONObject(new String(buffer));
