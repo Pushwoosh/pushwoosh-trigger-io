@@ -49,9 +49,11 @@ forge.internal.addEventListener("pushwoosh.pushAccepted",
     }
 );
 
-forge.pushwoosh.onDeviceReady({"pw_appid":"PW_APPLICATION", "gcm_id":"GCM_SENDER_ID"});
+forge.pushwoosh.onDeviceReady({"pw_appid":"YOUR_APP_ID", "gcm_id":"YOUR_FCM_SENDER_ID"});
 
 forge.pushwoosh.registerDevice();
+
+forge.pushwoosh_geozones.startLocationTracking();
 
 forge.pushwoosh.getHWID(
     function (hwid) {

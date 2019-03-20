@@ -1,0 +1,140 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:3.1.4"
+    }
+    System.properties["com.android.build.gradle.overrideVersionCheck"] = "true"
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://download.01.org/crosswalk/releases/crosswalk/android/maven2"
+        }
+        maven {
+            url "https://maven.google.com"
+        }
+        maven {
+            url "http://dl.bintray.com/openid/net.openid"
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+        flatDir {
+            dirs "ForgeModule/libs"
+        }
+    }
+}
+
+ext {
+    compileSdkVersion = 28
+    buildToolsVersion = "28.0.2"
+    supportLibraryVersion = "28.0.0"
+    crosswalkVersion = "23.53.589.4"
+
+    minSdkVersion = moduleMinSdkVersion() ?: 14
+    targetSdkVersion = 28
+
+    compileOptions = {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    debug = {
+        debuggable true
+        minifyEnabled false
+        shrinkResources false
+    }
+    release = {
+        debuggable false
+        minifyEnabled true
+        shrinkResources false
+    }
+}
+
+wrapper {
+    gradleVersion = "4.9"
+}
+
+task getHomeDir doLast {
+    println gradle.gradleHomeDir
+}
+
+import groovy.json.JsonSlurper
+def moduleDependencies() {
+    def f = new File("ForgeInspector/gradle.json")
+    if (f.exists()) {
+        def jsonSlurper = new JsonSlurper()
+        def config = jsonSlurper.parseText(f.text)
+        config["dependencies"] ?: []
+    } else {
+        []
+    }
+}
+
+def moduleExcludeJars() {
+    def f = new File("ForgeInspector/gradle.json")
+    if (f.exists()) {
+        def jsonSlurper = new JsonSlurper()
+        def config = jsonSlurper.parseText(f.text)
+        config["exclude_jars"] ?: []
+    } else {
+        []
+    }
+}
+
+def moduleManifestPlaceholders() {
+    def f = new File("ForgeInspector/gradle.json")
+    if (f.exists()) {
+        def jsonSlurper = new JsonSlurper()
+        def config = jsonSlurper.parseText(f.text)
+        config["manifestPlaceholders"] ?: [:]
+    } else {
+        [:]
+    }
+}
+
+def moduleMinSdkVersion() {
+    def f = new File("ForgeInspector/gradle.json")
+    if (f.exists()) {
+        def jsonSlurper = new JsonSlurper()
+        def config = jsonSlurper.parseText(f.text)
+        config["minSdkVersion"] ?: null
+    } else {
+        null
+    }
+}
+
+def moduleResConfigs() {
+    def f = new File("ForgeInspector/gradle.json")
+    if (f.exists()) {
+        def jsonSlurper = new JsonSlurper()
+        def config = jsonSlurper.parseText(f.text)
+        config["resConfigs"] ?: []
+    } else {
+        []
+    }
+}
+
+// Force Android support library version for Crosswalk builds
+configurations.all { conf ->
+    if (conf.name.contains("crosswalk")) {
+        println "Munging support library for: " + conf.name
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == "com.android.support") {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion rootProject.ext.supportLibraryVersion
+                }
+            }
+        }
+    }
+}

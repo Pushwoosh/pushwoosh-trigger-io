@@ -15,7 +15,6 @@ import com.pushwoosh.exception.UnregisterForPushNotificationException;
 import com.pushwoosh.function.Callback;
 import com.pushwoosh.function.Result;
 import com.pushwoosh.inapp.PushwooshInApp;
-import com.pushwoosh.location.PushwooshLocation;
 import com.pushwoosh.tags.Tags;
 import com.pushwoosh.tags.TagsBundle;
 
@@ -81,20 +80,6 @@ public class API {
 				}
 			}
 		});
-		task.success();
-	}
-
-	public static void startLocationTracking(final ForgeTask task) {
-		waitForDeviceReady();
-
-		PushwooshLocation.startLocationTracking();
-		task.success();
-	}
-
-	public static void stopLocationTracking(final ForgeTask task) {
-		waitForDeviceReady();
-
-		PushwooshLocation.stopLocationTracking();
 		task.success();
 	}
 

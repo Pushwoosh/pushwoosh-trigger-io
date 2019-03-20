@@ -1,0 +1,36 @@
+# Without this libraries like guava cause a huge number of warnings which don't seem to actually matter
+-dontwarn **
+
+# Make sure all of our code is kept since we use reflection and the JS->Java bridge needs to not be obfuscated
+-keep class io.trigger.** { *; }
+
+# Make sure customer 'package_name' namespace is preserved because Gradle now relocates module resources there
+-dontwarn io.trigger.forge.android.inspector.**
+-keep class io.trigger.forge.android.inspector.** { *; }
+
+# Don't nuke org.apache.http.legacy on android-23
+-keep class org.apache.http.** { *; }
+-keep class org.apache.commons.codec.** { *; }
+-keep class org.apache.commons.logging.** { *; }
+-keep class android.net.compatibility.** { *; }
+-keep class android.net.http.** { *; }
+-keep class com.android.internal.http.multipart.** { *; }
+-dontwarn org.apache.http.**
+-dontwarn android.webkit.**
+
+-keep class * extends java.util.ListResourceBundle { protected Object[][] getContents(); }
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable { public static final *** NULL; }
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * { @com.google.android.gms.common.annotation.KeepName *; }
+-keepnames class * implements android.os.Parcelable { public static final ** CREATOR; }
+-keep class * extends java.util.ListResourceBundle { protected java.lang.Object[][] getContents(); }
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable { public static final *** NULL; }
+-keep @interface com.google.android.gms.common.annotation.KeepName
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * { @com.google.android.gms.common.annotation.KeepName *; }
+-keepnames class * implements android.os.Parcelable { public static final ** CREATOR; }
+-dontwarn android.security.NetworkSecurityPolicy
+-keep public class com.google.android.gms.dynamite.descriptors.** { public <fields>; }
+-keep public class com.google.android.gms.flags.impl.FlagProviderImpl { public <fields>; public <methods>; }
+-keep class com.pushwoosh.** { *; }
+-dontwarn com.pushwoosh.**

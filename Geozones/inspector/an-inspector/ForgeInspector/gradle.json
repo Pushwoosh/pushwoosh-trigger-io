@@ -1,0 +1,6 @@
+{
+    "dependencies": [
+        "com.pushwoosh:pushwoosh-location:5.12.1", 
+        "com.google.android.gms:play-services-location:+"
+    ]
+}

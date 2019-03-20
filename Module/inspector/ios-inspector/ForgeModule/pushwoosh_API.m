@@ -178,16 +178,6 @@ static NSString *const KeyShowAlert = @"PWTriggerShowAlert";
     }];
 }
 
-+ (void)startLocationTracking:(ForgeTask *)task {
-    [[PushNotificationManager pushManager] startLocationTracking];
-    [task success:nil];
-}
-
-+ (void)stopLocationTracking:(ForgeTask *)task {
-    [[PushNotificationManager pushManager] stopLocationTracking];
-    [task success:nil];
-}
-
 + (void)setTags:(ForgeTask *)task tags:(NSDictionary *)tags {
     [[PushNotificationManager pushManager] setTags:tags];
     [task success:nil];

@@ -1,0 +1,114 @@
+[
+    {
+       "do": {
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-location:5.12.1"
+       }
+    },
+    {
+       "do": {
+           "android_add_gradle_dependency": "com.google.android.gms:play-services-location:+"
+       }
+    },
+    {
+        "do": {
+            "android_add_proguard_rule": "-keep class * extends java.util.ListResourceBundle { protected Object[][] getContents(); }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable { public static final *** NULL; }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keepnames @com.google.android.gms.common.annotation.KeepName class *"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keepclassmembernames class * { @com.google.android.gms.common.annotation.KeepName *; }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": "-keepnames class * implements android.os.Parcelable { public static final ** CREATOR; }"
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep class * extends java.util.ListResourceBundle { protected java.lang.Object[][] getContents(); }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable { public static final *** NULL; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep @interface com.google.android.gms.common.annotation.KeepName"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keepnames @com.google.android.gms.common.annotation.KeepName class *"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keepclassmembernames class * { @com.google.android.gms.common.annotation.KeepName *; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keepnames class * implements android.os.Parcelable { public static final ** CREATOR; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-dontwarn android.security.NetworkSecurityPolicy"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep public class com.google.android.gms.dynamite.descriptors.** { public <fields>; }"
+            }
+        }
+    }, 
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep public class com.google.android.gms.flags.impl.FlagProviderImpl { public <fields>; public <methods>; }"
+            }
+        }
+    },
+    {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-keep class com.pushwoosh.** { *; }"
+            }
+        }
+    },
+        {
+        "do": {
+            "android_add_proguard_rule": {
+                "rule": "-dontwarn com.pushwoosh.**"
+            }
+        }
+    }
+]
