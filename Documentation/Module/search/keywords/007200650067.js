@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("reg",["Function"],[["registerDevice",,[["forge.pushwoosh",,,,0,"File:module.js:forge.pushwoosh.registerDevice","JavaScriptClass:forge.pushwoosh:registerDevice"]]]]);

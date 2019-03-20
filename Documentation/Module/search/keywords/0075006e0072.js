@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("unr",["Function"],[["unregisterDevice",,[["forge.pushwoosh",,,,0,"File:module.js:forge.pushwoosh.unregisterDevice","JavaScriptClass:forge.pushwoosh:unregisterDevice"]]]]);

@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("sta",["Function"],[["startLocationTracking",,[["forge.pushwoosh_geozones",,,,0,"File:module.js:forge.pushwoosh_geozones.startLocationTracking","JavaScriptClass:forge.pushwoosh_geozones:startLocationTracking"]]]]);

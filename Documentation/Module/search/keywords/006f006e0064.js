@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("ond",["Function"],[["onDeviceReady",,[["forge.pushwoosh",,,,0,"File:module.js:forge.pushwoosh.onDeviceReady","JavaScriptClass:forge.pushwoosh:onDeviceReady"]]]]);

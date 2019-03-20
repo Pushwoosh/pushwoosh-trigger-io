@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("pus",["Class"],[["pushwoosh_geozones",,[["forge",,,,0,"File:module.js:forge.pushwoosh_geozones","JavaScriptClass:forge.pushwoosh_geozones"]]]]);

@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("can",["Function"],[["cancelAllLocalNotifications",,[["forge.pushwoosh",,,,0,"File:module.js:forge.pushwoosh.cancelAllLocalNotifications","JavaScriptClass:forge.pushwoosh:cancelAllLocalNotifications"]]]]);

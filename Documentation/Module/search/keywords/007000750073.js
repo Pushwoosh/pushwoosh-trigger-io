@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("pus",["Class"],[["pushwoosh",,[["forge",,,,0,"File:module.js:forge.pushwoosh","JavaScriptClass:forge.pushwoosh"]]]]);
