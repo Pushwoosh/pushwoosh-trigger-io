@@ -1,50 +1,50 @@
 [
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_tooltip_enter.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_tooltip_enter.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_tooltip_enter.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_slide_out_top.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_slide_out_top.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_slide_in_top.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_slide_in_top.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_tooltip_exit.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_tooltip_exit.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_tooltip_exit.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_fade_out.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_fade_out.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_slide_in_bottom.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_popup_exit.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_popup_exit.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_slide_out_bottom.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_fade_in.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_fade_in.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_popup_enter.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_popup_enter.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/anim/abc_shrink_fade_out_from_bottom.xml"
     }
 ]

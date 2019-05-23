@@ -1,8 +1,8 @@
 {
-  "changes": "### Updated\n* Pushwoosh module updated to use FCM instead of GCM\n* Moved Geozones functionality into a separate module\n* Android SDK version updated to 5.13.2\n* iOS SDK version updated to 5.13.0",
+  "changes": "### Fixed\n* Zip Path Traversal Vulnerability\n\n### Updated\n* Android SDK version updated to 5.14.3\n* iOS SDK version updated to 5.13.1",
 	"description": "Pushwoosh push notifications module",
 	"min_platform_version": "v2.7.3",
 	"namespace": "pushwoosh",
 	"platform_version": "v2.7.3",
-  "version": "3.4.0"
+  "version": "3.5.0"
 }

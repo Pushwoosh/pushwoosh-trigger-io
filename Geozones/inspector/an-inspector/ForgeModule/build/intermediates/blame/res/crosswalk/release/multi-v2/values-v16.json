@@ -4,7 +4,7 @@
             "outputFile": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/df1e48e18432ccbe6e22f32b69503acc/res/values-v16/values-v16.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/values-v16/values-v16.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
             "outputFile": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/incremental/mergeCrosswalkReleaseResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/df1e48e18432ccbe6e22f32b69503acc/res/values-v16/values-v16.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/values-v16/values-v16.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

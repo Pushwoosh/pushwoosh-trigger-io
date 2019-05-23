@@ -18,7 +18,7 @@ forge.pushwoosh_geozones = {
 //
 //Example:
 //(start code)
-//  forge.pushwoosh.startLocationTracking();
+//  forge.pushwoosh_geozones.startLocationTracking();
 //(end)
     startLocationTracking: function (success, error) {
         forge.internal.call('pushwoosh_geozones.startLocationTracking', {}, success, error);

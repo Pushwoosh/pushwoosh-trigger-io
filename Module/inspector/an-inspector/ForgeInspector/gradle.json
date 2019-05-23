@@ -1,8 +1,8 @@
 {
     "dependencies": [
-        "com.pushwoosh:pushwoosh:5.13.2", 
-        "com.pushwoosh:pushwoosh-amazon:5.13.2", 
-        "com.pushwoosh:pushwoosh-badge:5.13.2", 
+        "com.pushwoosh:pushwoosh:5.14.3", 
+        "com.pushwoosh:pushwoosh-amazon:5.14.3", 
+        "com.pushwoosh:pushwoosh-badge:5.14.3", 
         "com.google.firebase:firebase-core:+", 
         "com.google.firebase:firebase-messaging:+", 
         "com.android.support:support-v4:27.+"

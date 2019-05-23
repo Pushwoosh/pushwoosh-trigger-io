@@ -42,17 +42,17 @@
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh:5.13.2"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh:5.14.3"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-amazon:5.13.2"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-amazon:5.14.3"
        }
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-badge:5.13.2"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-badge:5.14.3"
        }
     },
     {

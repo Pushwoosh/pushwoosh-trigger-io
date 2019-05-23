@@ -4,7 +4,7 @@
             "outputFile": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/6b88b3a2cc04616862e6e448806686a4/res/values-v17/styles.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/values-v17/styles.xml",
                     "from": {
                         "startLines": "12,15,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/values-v17/values-v17.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/6b88b3a2cc04616862e6e448806686a4/res/values-v17/styles_03.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/values-v17/styles_03.xml",
                     "from": {
                         "startLines": "33,20,37,17,14,9",
                         "startColumns": "4,4,4,4,4,4",
@@ -66,7 +66,7 @@
             "outputFile": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/incremental/mergeCrosswalkReleaseResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/6b88b3a2cc04616862e6e448806686a4/res/values-v17/styles.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/values-v17/styles.xml",
                     "from": {
                         "startLines": "12,15,8",
                         "startColumns": "4,4,4",
@@ -85,7 +85,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/01c827500cd05e57354f5722d8667012/res/values-v17/values-v17.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -104,7 +104,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/6b88b3a2cc04616862e6e448806686a4/res/values-v17/styles_03.xml",
+                    "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/values-v17/styles_03.xml",
                     "from": {
                         "startLines": "33,20,37,17,14,9",
                         "startColumns": "4,4,4,4,4,4",

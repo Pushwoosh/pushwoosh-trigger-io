@@ -1,7 +1,7 @@
 [
     {
        "do": {
-           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-location:5.13.2"
+           "android_add_gradle_dependency": "com.pushwoosh:pushwoosh-location:5.14.3"
        }
     },
     {
