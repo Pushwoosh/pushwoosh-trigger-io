@@ -40,9 +40,15 @@ public class API {
 		}
 	}
 
-	public static void onDeviceReady(final ForgeTask task, @ForgeParam("pw_appid") String pushwooshAppId, @ForgeParam("gcm_id") String gcmProjectId) {
+	public static void onDeviceReady(final ForgeTask task,
+									 @ForgeParam("pw_appid") String pushwooshAppId) {
 		Pushwoosh.getInstance().setAppId(pushwooshAppId);
-		Pushwoosh.getInstance().setSenderId(gcmProjectId);
+		JsonObject paramsJson = task.params;
+		if (paramsJson.has("fcm_sender_id")) {
+			Pushwoosh.getInstance().setSenderId(paramsJson.get("fcm_sender_id").getAsString());
+		} else if (paramsJson.has("gcm_id")){
+			Pushwoosh.getInstance().setSenderId(paramsJson.get("gcm_id").getAsString());
+		}
 		PushwooshNotifications.getInstance().pushNotificationsStartup();
 		task.success();
 
