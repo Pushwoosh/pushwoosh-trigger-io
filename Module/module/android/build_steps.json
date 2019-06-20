@@ -57,12 +57,12 @@
     },
     {
         "do": {
-            "android_add_gradle_dependency": "com.google.firebase:firebase-core:+"
+            "android_add_gradle_dependency": "com.google.firebase:firebase-core:(+,17.0.0)"
         }
      },
      {
         "do": {
-            "android_add_gradle_dependency": "com.google.firebase:firebase-messaging:+"
+            "android_add_gradle_dependency": "com.google.firebase:firebase-messaging:(+,19.0.0)"
         }
      },
     {

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_action.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/layout-v21/notification_action.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_action.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/layout-v21/notification_template_custom_big.xml"
     }
 ]

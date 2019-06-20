@@ -6,7 +6,7 @@
     },
     {
        "do": {
-           "android_add_gradle_dependency": "com.google.android.gms:play-services-location:+"
+           "android_add_gradle_dependency": "com.google.android.gms:play-services-location:(+,17.0.0)"
        }
     },
     {

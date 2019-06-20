@@ -1,290 +1,290 @@
 [
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/color_picker_advanced_select_handle.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/color_picker_advanced_select_handle.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_divider_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_list_divider_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/autofill_chip_inset.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/autofill_chip_inset.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ic_menu_share_holo_light.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/ic_menu_share_holo_light.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ratingbar_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_bg.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_bg_low.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/autofill_chip_inset.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/autofill_chip_inset.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_light_normal.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ic_search.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/ic_search.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/tooltip_frame_dark.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/bubble_arrow_up.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/bubble_arrow_up.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_icon_background.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/pw_default_loading_view_background.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.14.3.aar/48e49a60a30528af8f62c79b61d9aa0c/res/drawable/pw_default_loading_view_background.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_check_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ic_search.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/ic_search.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_light_normal.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_bg_low.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_popup_background_up.9.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/dropdown_popup_background_up.9.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/tooltip_frame_light.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/tooltip_frame_light.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/tooltip_frame_light.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_icon_background.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ondemand_overlay.9.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/ondemand_overlay.9.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_divider_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_list_divider_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/verify_checkmark.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/verify_checkmark.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/bubble.9.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/bubble.9.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_label_color.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/dropdown_label_color.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/color_button_background.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/color_button_background.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/tooltip_frame_dark.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/tooltip_frame_dark.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_disabled.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ic_clear_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/bubble.9.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/bubble.9.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ondemand_overlay.9.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/ondemand_overlay.9.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ic_menu_share_holo_light.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/ic_menu_share_holo_light.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_edit_text_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_edit_text_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_dark_normal.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/verify_checkmark.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/verify_checkmark.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/bubble_arrow_up.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/bubble_arrow_up.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_popup_background_down.9.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/dropdown_popup_background_down.9.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_tile_bg.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/drawable/notification_tile_bg.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_dialog_material_background.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_popup_background.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/dropdown_popup_background.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/color_picker_border.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/color_picker_border.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_bg.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c97700c139b5557e572de34eac8b9f7f/res/drawable/notification_bg.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_popup_background.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/dropdown_popup_background.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/button_compat_shape.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/button_compat_shape.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/color_picker_advanced_select_handle.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/color_picker_advanced_select_handle.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/pw_default_loading_view_background.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.14.3.aar/4e2282ca00196ee658f1ca50334e246a/res/drawable/pw_default_loading_view_background.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ic_warning.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/ic_warning.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/color_picker_border.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/color_picker_border.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_disabled.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f5f64be47729e49347b637192a16343e/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/button_compat_shape.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/button_compat_shape.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/ic_warning.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/ic_warning.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_textfield_search_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8f7ae8672d8bb97bfef94cd6182c1c3c/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/color_button_background.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/color_button_background.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_vector_test.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/eabaa336040a36bd4b5f3558cc1de2f7/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_popup_background_down.9.png",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/dropdown_popup_background_down.9.png"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_popup_background_up.9.png",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/928e964b209b7d166aee992805c28423/res/drawable/dropdown_popup_background_up.9.png"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/dropdown_label_color.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/xwalk_core_library-23.53.589.4.aar/153f0015695cd4b8ee6a15455bd206e9/res/drawable/dropdown_label_color.xml"
     },
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_vector_test.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/755a814a14f023c919f66c42c3936286/res/drawable/abc_vector_test.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/72855be338d22247468767865483b028/res/drawable/abc_text_cursor_material.xml"
     }
 ]

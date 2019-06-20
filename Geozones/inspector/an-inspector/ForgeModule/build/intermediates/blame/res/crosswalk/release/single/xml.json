@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/xml/pw_provider_paths.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.14.3.aar/4e2282ca00196ee658f1ca50334e246a/res/xml/pw_provider_paths.xml"
+        "merged": "/Users/kai/Projects/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/crosswalk/release/xml/pw_provider_paths.xml",
+        "source": "/Users/kai/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.14.3.aar/48e49a60a30528af8f62c79b61d9aa0c/res/xml/pw_provider_paths.xml"
     }
 ]
