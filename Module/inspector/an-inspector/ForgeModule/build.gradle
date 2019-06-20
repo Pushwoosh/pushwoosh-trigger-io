@@ -21,7 +21,7 @@ android {
             dimension "default"
             minSdkVersion moduleMinSdkVersion() ?: 16
             ndk {
-                abiFilters "armeabi-v7a", "x86"
+                abiFilters "armeabi-v7a", ""
             }
         }
     }

@@ -1,8 +1,8 @@
 {
-  "changes": "",
+  "changes": "### Fixed\n* android build issue related to firebase libraries version",
     "description": "This module enables Pushwoosh Geozones feature", 
     "min_platform_version": "v2.7.3", 
     "namespace": "pushwoosh_geozones", 
     "platform_version": "v2.7.3", 
-  "version": "3.5.3"
+  "version": "3.6.0"
 }
