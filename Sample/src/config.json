@@ -3,7 +3,7 @@
 	"name": "Sample App with Pushwoosh",
 	"author": "Pushwoosh",
 	"version": "1.0",
-	"platform_version": "v2.7.8",
+	"platform_version": "v2.8.2",
 	"description": "An empty app created by default",
 	"core": {
 		"general": {
@@ -17,16 +17,16 @@
 			"package_name": "com.pushwoosh.demoapp"
 		},
 		"ios": {
-			"minimum_version": "10.0",
+			"minimum_version": "11.0",
 			"package_name": "com.pushwoosh.demoapp"
 		}
 	},
 	"modules": {
 		"pushwoosh": {
-			"version": "3.5.3"
+			"version": "3.7.0"
 		},
 		"pushwoosh_geozones": {
-			"version": "3.5.3",
+			"version": "3.6.0",
 			"config": {
 				"background_usage_description": "This demo uses location services for Pushwoosh Geozones",
 				"foreground_usage_description": "This demo uses location services for Pushwoosh Geozones"
