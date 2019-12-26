@@ -417,6 +417,9 @@ public final class R {
         public static int abc_action_bar_embed_tabs = 0x7f050001;
         public static int abc_allow_stacked_button_bar = 0x7f050002;
         public static int abc_config_actionMenuItemAllCaps = 0x7f050003;
+        public static int enable_system_alarm_service_default = 0x7f050004;
+        public static int enable_system_job_service_default = 0x7f050005;
+        public static int workmanager_test_configuration = 0x7f050006;
     }
     public static final class color {
         public static int abc_background_cache_hint_selector_material_dark = 0x7f060001;

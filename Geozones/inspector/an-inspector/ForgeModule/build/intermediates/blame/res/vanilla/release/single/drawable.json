@@ -157,7 +157,7 @@
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/vanilla/release/drawable/pw_default_loading_view_background.xml",
-        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.16.0.aar/2f978c3ec4023e9d505d3cc1d8adbc97/res/drawable/pw_default_loading_view_background.xml"
+        "source": "/Users/jenkins/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.21.4.aar/01138e99b003d40a9d6add933291db57/res/drawable/pw_default_loading_view_background.xml"
     },
     {
         "merged": "/Users/jenkins/builds/f4bfe383/0/Plugins/Trigger.io/PublicSample/Geozones/inspector/an-inspector/ForgeModule/build/intermediates/res/merged/vanilla/release/drawable/common_google_signin_btn_text_disabled.xml",

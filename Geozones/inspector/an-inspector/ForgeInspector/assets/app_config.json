@@ -1,1 +1,1 @@
-{"modules": {"pushwoosh_geozones": {"version": "3.5.3", "config": {"background_usage_description": "Always Usage Description", "foreground_usage_description": "When In Use Usage Description"}}, "inspector": {"version": "1.0"}}}
+{"modules": {"pushwoosh_geozones": {"version": "3.6.0", "config": {"background_usage_description": "Always Usage Description", "foreground_usage_description": "When In Use Usage Description"}}, "inspector": {"version": "1.0"}}}

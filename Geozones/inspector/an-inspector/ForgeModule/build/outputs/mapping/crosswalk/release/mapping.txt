@@ -2,12 +2,294 @@ android.arch.core.R -> android.arch.core.R:
     void <init>() -> <init>
 android.arch.lifecycle.R -> android.arch.lifecycle.R:
     void <init>() -> <init>
+android.arch.lifecycle.extensions.R -> android.arch.lifecycle.extensions.R:
+    void <init>() -> <init>
+android.arch.lifecycle.extensions.R$attr -> android.arch.lifecycle.extensions.R$attr:
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$bool -> android.arch.lifecycle.extensions.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$color -> android.arch.lifecycle.extensions.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$dimen -> android.arch.lifecycle.extensions.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$drawable -> android.arch.lifecycle.extensions.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$id -> android.arch.lifecycle.extensions.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int chronometer -> chronometer
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int line1 -> line1
+    int line3 -> line3
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$integer -> android.arch.lifecycle.extensions.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$layout -> android.arch.lifecycle.extensions.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$string -> android.arch.lifecycle.extensions.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$style -> android.arch.lifecycle.extensions.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.lifecycle.extensions.R$styleable -> android.arch.lifecycle.extensions.R$styleable:
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontVariationSettings -> FontFamilyFont_android_fontVariationSettings
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_android_ttcIndex -> FontFamilyFont_android_ttcIndex
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontVariationSettings -> FontFamilyFont_fontVariationSettings
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    int FontFamilyFont_ttcIndex -> FontFamilyFont_ttcIndex
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
 android.arch.lifecycle.livedata.R -> android.arch.lifecycle.livedata.R:
     void <init>() -> <init>
 android.arch.lifecycle.livedata.core.R -> android.arch.lifecycle.livedata.core.R:
     void <init>() -> <init>
 android.arch.lifecycle.viewmodel.R -> android.arch.lifecycle.viewmodel.R:
     void <init>() -> <init>
+android.arch.persistence.db.R -> android.arch.persistence.db.R:
+    void <init>() -> <init>
+android.arch.persistence.db.framework.R -> android.arch.persistence.db.framework.R:
+    void <init>() -> <init>
+android.arch.persistence.room.R -> android.arch.persistence.room.R:
+    void <init>() -> <init>
+android.arch.persistence.room.R$attr -> android.arch.persistence.room.R$attr:
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$bool -> android.arch.persistence.room.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$color -> android.arch.persistence.room.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$dimen -> android.arch.persistence.room.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$drawable -> android.arch.persistence.room.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$id -> android.arch.persistence.room.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int chronometer -> chronometer
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int line1 -> line1
+    int line3 -> line3
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$integer -> android.arch.persistence.room.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$layout -> android.arch.persistence.room.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$string -> android.arch.persistence.room.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$style -> android.arch.persistence.room.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.arch.persistence.room.R$styleable -> android.arch.persistence.room.R$styleable:
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontVariationSettings -> FontFamilyFont_android_fontVariationSettings
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_android_ttcIndex -> FontFamilyFont_android_ttcIndex
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontVariationSettings -> FontFamilyFont_fontVariationSettings
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    int FontFamilyFont_ttcIndex -> FontFamilyFont_ttcIndex
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
 android.support.asynclayoutinflater.R -> android.support.asynclayoutinflater.R:
     void <init>() -> <init>
 android.support.asynclayoutinflater.R$attr -> android.support.asynclayoutinflater.R$attr:
@@ -4273,6 +4555,148 @@ android.support.v7.viewpager.R$styleable -> android.support.v7.viewpager.R$style
     void <clinit>() -> <clinit>
 androidx.versionedparcelable.R -> androidx.versionedparcelable.R:
     void <init>() -> <init>
+androidx.work.R -> androidx.work.R:
+    void <init>() -> <init>
+androidx.work.R$attr -> androidx.work.R$attr:
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$bool -> androidx.work.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    int enable_system_alarm_service_default -> enable_system_alarm_service_default
+    int enable_system_job_service_default -> enable_system_job_service_default
+    int workmanager_test_configuration -> workmanager_test_configuration
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$color -> androidx.work.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$dimen -> androidx.work.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$drawable -> androidx.work.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$id -> androidx.work.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int chronometer -> chronometer
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int line1 -> line1
+    int line3 -> line3
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$integer -> androidx.work.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$layout -> androidx.work.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$string -> androidx.work.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$style -> androidx.work.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+androidx.work.R$styleable -> androidx.work.R$styleable:
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontVariationSettings -> FontFamilyFont_android_fontVariationSettings
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_android_ttcIndex -> FontFamilyFont_android_ttcIndex
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontVariationSettings -> FontFamilyFont_fontVariationSettings
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    int FontFamilyFont_ttcIndex -> FontFamilyFont_ttcIndex
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
 com.google.android.gms.base.R -> com.google.android.gms.base.R:
     void <init>() -> <init>
 com.google.android.gms.base.R$attr -> com.google.android.gms.base.R$attr:
@@ -4525,6 +4949,9 @@ com.pushwoosh.R$attr -> com.pushwoosh.R$attr:
     void <clinit>() -> <clinit>
 com.pushwoosh.R$bool -> com.pushwoosh.R$bool:
     int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    int enable_system_alarm_service_default -> enable_system_alarm_service_default
+    int enable_system_job_service_default -> enable_system_job_service_default
+    int workmanager_test_configuration -> workmanager_test_configuration
     void <init>() -> <init>
     void <clinit>() -> <clinit>
 com.pushwoosh.R$color -> com.pushwoosh.R$color:
@@ -5427,6 +5854,9 @@ com.pushwoosh.location.R$attr -> com.pushwoosh.location.R$attr:
     void <clinit>() -> <clinit>
 com.pushwoosh.location.R$bool -> com.pushwoosh.location.R$bool:
     int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    int enable_system_alarm_service_default -> enable_system_alarm_service_default
+    int enable_system_job_service_default -> enable_system_job_service_default
+    int workmanager_test_configuration -> workmanager_test_configuration
     void <init>() -> <init>
     void <clinit>() -> <clinit>
 com.pushwoosh.location.R$color -> com.pushwoosh.location.R$color:
@@ -8478,6 +8908,9 @@ io.trigger.forge.android.modules.pushwoosh_geozones.R$bool -> io.trigger.forge.a
     int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
     int abc_allow_stacked_button_bar -> abc_allow_stacked_button_bar
     int abc_config_actionMenuItemAllCaps -> abc_config_actionMenuItemAllCaps
+    int enable_system_alarm_service_default -> enable_system_alarm_service_default
+    int enable_system_job_service_default -> enable_system_job_service_default
+    int workmanager_test_configuration -> workmanager_test_configuration
     void <init>() -> <init>
     void <clinit>() -> <clinit>
 io.trigger.forge.android.modules.pushwoosh_geozones.R$color -> io.trigger.forge.android.modules.pushwoosh_geozones.R$color:

@@ -1,8 +1,8 @@
 {
-	"changes": "### Updated\n* update iOS & Android SDK to 5.19.3",
+  "changes": "### Updated\n* update iOS SDK to 5.21.0\n* update Android SDK to 5.21.4",
 	"description": "Pushwoosh push notifications module",
 	"min_platform_version": "v2.7.3",
 	"namespace": "pushwoosh",
 	"platform_version": "v2.7.3",
-	"version": "3.7.0"
+  "version": "3.8.0"
 }

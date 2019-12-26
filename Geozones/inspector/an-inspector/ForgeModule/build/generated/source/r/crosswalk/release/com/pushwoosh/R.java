@@ -147,6 +147,9 @@ public final class R {
     }
     public static final class bool {
         public static int abc_action_bar_embed_tabs = 0x7f050001;
+        public static int enable_system_alarm_service_default = 0x7f050004;
+        public static int enable_system_job_service_default = 0x7f050005;
+        public static int workmanager_test_configuration = 0x7f050006;
     }
     public static final class color {
         public static int cast_expanded_controller_ad_container_white_stripe_color = 0x7f060027;

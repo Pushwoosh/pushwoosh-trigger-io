@@ -1,8 +1,242 @@
 android.arch.core.R
 android.arch.lifecycle.R
+android.arch.lifecycle.extensions.R
+android.arch.lifecycle.extensions.R$attr
+android.arch.lifecycle.extensions.R$attr: int font
+android.arch.lifecycle.extensions.R$attr: int fontProviderAuthority
+android.arch.lifecycle.extensions.R$attr: int fontProviderCerts
+android.arch.lifecycle.extensions.R$attr: int fontProviderFetchStrategy
+android.arch.lifecycle.extensions.R$attr: int fontProviderFetchTimeout
+android.arch.lifecycle.extensions.R$attr: int fontProviderPackage
+android.arch.lifecycle.extensions.R$attr: int fontProviderQuery
+android.arch.lifecycle.extensions.R$attr: int fontStyle
+android.arch.lifecycle.extensions.R$attr: int fontWeight
+android.arch.lifecycle.extensions.R$bool
+android.arch.lifecycle.extensions.R$bool: int abc_action_bar_embed_tabs
+android.arch.lifecycle.extensions.R$color
+android.arch.lifecycle.extensions.R$color: int notification_action_color_filter
+android.arch.lifecycle.extensions.R$color: int notification_icon_bg_color
+android.arch.lifecycle.extensions.R$color: int ripple_material_light
+android.arch.lifecycle.extensions.R$color: int secondary_text_default_material_light
+android.arch.lifecycle.extensions.R$dimen
+android.arch.lifecycle.extensions.R$dimen: int compat_button_inset_horizontal_material
+android.arch.lifecycle.extensions.R$dimen: int compat_button_inset_vertical_material
+android.arch.lifecycle.extensions.R$dimen: int compat_button_padding_horizontal_material
+android.arch.lifecycle.extensions.R$dimen: int compat_button_padding_vertical_material
+android.arch.lifecycle.extensions.R$dimen: int compat_control_corner_material
+android.arch.lifecycle.extensions.R$dimen: int notification_action_icon_size
+android.arch.lifecycle.extensions.R$dimen: int notification_action_text_size
+android.arch.lifecycle.extensions.R$dimen: int notification_big_circle_margin
+android.arch.lifecycle.extensions.R$dimen: int notification_content_margin_start
+android.arch.lifecycle.extensions.R$dimen: int notification_large_icon_height
+android.arch.lifecycle.extensions.R$dimen: int notification_large_icon_width
+android.arch.lifecycle.extensions.R$dimen: int notification_main_column_padding_top
+android.arch.lifecycle.extensions.R$dimen: int notification_media_narrow_margin
+android.arch.lifecycle.extensions.R$dimen: int notification_right_icon_size
+android.arch.lifecycle.extensions.R$dimen: int notification_right_side_padding_top
+android.arch.lifecycle.extensions.R$dimen: int notification_small_icon_background_padding
+android.arch.lifecycle.extensions.R$dimen: int notification_small_icon_size_as_large
+android.arch.lifecycle.extensions.R$dimen: int notification_subtext_size
+android.arch.lifecycle.extensions.R$dimen: int notification_top_pad
+android.arch.lifecycle.extensions.R$dimen: int notification_top_pad_large_text
+android.arch.lifecycle.extensions.R$drawable
+android.arch.lifecycle.extensions.R$drawable: int notification_action_background
+android.arch.lifecycle.extensions.R$drawable: int notification_bg
+android.arch.lifecycle.extensions.R$drawable: int notification_bg_low
+android.arch.lifecycle.extensions.R$drawable: int notification_bg_low_normal
+android.arch.lifecycle.extensions.R$drawable: int notification_bg_low_pressed
+android.arch.lifecycle.extensions.R$drawable: int notification_bg_normal
+android.arch.lifecycle.extensions.R$drawable: int notification_bg_normal_pressed
+android.arch.lifecycle.extensions.R$drawable: int notification_icon_background
+android.arch.lifecycle.extensions.R$drawable: int notification_template_icon_bg
+android.arch.lifecycle.extensions.R$drawable: int notification_template_icon_low_bg
+android.arch.lifecycle.extensions.R$drawable: int notification_tile_bg
+android.arch.lifecycle.extensions.R$drawable: int notify_panel_notification_icon_bg
+android.arch.lifecycle.extensions.R$id
+android.arch.lifecycle.extensions.R$id: int action_container
+android.arch.lifecycle.extensions.R$id: int action_divider
+android.arch.lifecycle.extensions.R$id: int action_image
+android.arch.lifecycle.extensions.R$id: int action_text
+android.arch.lifecycle.extensions.R$id: int actions
+android.arch.lifecycle.extensions.R$id: int async
+android.arch.lifecycle.extensions.R$id: int blocking
+android.arch.lifecycle.extensions.R$id: int chronometer
+android.arch.lifecycle.extensions.R$id: int forever
+android.arch.lifecycle.extensions.R$id: int icon
+android.arch.lifecycle.extensions.R$id: int icon_group
+android.arch.lifecycle.extensions.R$id: int info
+android.arch.lifecycle.extensions.R$id: int italic
+android.arch.lifecycle.extensions.R$id: int line1
+android.arch.lifecycle.extensions.R$id: int line3
+android.arch.lifecycle.extensions.R$id: int normal
+android.arch.lifecycle.extensions.R$id: int notification_background
+android.arch.lifecycle.extensions.R$id: int notification_main_column
+android.arch.lifecycle.extensions.R$id: int notification_main_column_container
+android.arch.lifecycle.extensions.R$id: int right_icon
+android.arch.lifecycle.extensions.R$id: int right_side
+android.arch.lifecycle.extensions.R$id: int text
+android.arch.lifecycle.extensions.R$id: int text2
+android.arch.lifecycle.extensions.R$id: int time
+android.arch.lifecycle.extensions.R$id: int title
+android.arch.lifecycle.extensions.R$integer
+android.arch.lifecycle.extensions.R$integer: int status_bar_notification_info_maxnum
+android.arch.lifecycle.extensions.R$layout
+android.arch.lifecycle.extensions.R$layout: int notification_action
+android.arch.lifecycle.extensions.R$layout: int notification_action_tombstone
+android.arch.lifecycle.extensions.R$layout: int notification_template_custom_big
+android.arch.lifecycle.extensions.R$layout: int notification_template_icon_group
+android.arch.lifecycle.extensions.R$layout: int notification_template_part_chronometer
+android.arch.lifecycle.extensions.R$layout: int notification_template_part_time
+android.arch.lifecycle.extensions.R$string
+android.arch.lifecycle.extensions.R$string: int status_bar_notification_info_overflow
+android.arch.lifecycle.extensions.R$style
+android.arch.lifecycle.extensions.R$style: int TextAppearance_Compat_Notification
+android.arch.lifecycle.extensions.R$style: int TextAppearance_Compat_Notification_Info
+android.arch.lifecycle.extensions.R$style: int TextAppearance_Compat_Notification_Line2
+android.arch.lifecycle.extensions.R$style: int TextAppearance_Compat_Notification_Time
+android.arch.lifecycle.extensions.R$style: int TextAppearance_Compat_Notification_Title
+android.arch.lifecycle.extensions.R$style: int Widget_Compat_NotificationActionContainer
+android.arch.lifecycle.extensions.R$style: int Widget_Compat_NotificationActionText
+android.arch.lifecycle.extensions.R$styleable
+android.arch.lifecycle.extensions.R$styleable: int[] FontFamily
+android.arch.lifecycle.extensions.R$styleable: int FontFamily_fontProviderAuthority
+android.arch.lifecycle.extensions.R$styleable: int FontFamily_fontProviderCerts
+android.arch.lifecycle.extensions.R$styleable: int FontFamily_fontProviderFetchStrategy
+android.arch.lifecycle.extensions.R$styleable: int FontFamily_fontProviderFetchTimeout
+android.arch.lifecycle.extensions.R$styleable: int FontFamily_fontProviderPackage
+android.arch.lifecycle.extensions.R$styleable: int FontFamily_fontProviderQuery
+android.arch.lifecycle.extensions.R$styleable: int[] FontFamilyFont
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_android_font
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_android_fontStyle
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_android_fontVariationSettings
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_android_fontWeight
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_android_ttcIndex
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_font
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_fontStyle
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_fontVariationSettings
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_fontWeight
+android.arch.lifecycle.extensions.R$styleable: int FontFamilyFont_ttcIndex
 android.arch.lifecycle.livedata.R
 android.arch.lifecycle.livedata.core.R
 android.arch.lifecycle.viewmodel.R
+android.arch.persistence.db.R
+android.arch.persistence.db.framework.R
+android.arch.persistence.room.R
+android.arch.persistence.room.R$attr
+android.arch.persistence.room.R$attr: int font
+android.arch.persistence.room.R$attr: int fontProviderAuthority
+android.arch.persistence.room.R$attr: int fontProviderCerts
+android.arch.persistence.room.R$attr: int fontProviderFetchStrategy
+android.arch.persistence.room.R$attr: int fontProviderFetchTimeout
+android.arch.persistence.room.R$attr: int fontProviderPackage
+android.arch.persistence.room.R$attr: int fontProviderQuery
+android.arch.persistence.room.R$attr: int fontStyle
+android.arch.persistence.room.R$attr: int fontWeight
+android.arch.persistence.room.R$bool
+android.arch.persistence.room.R$bool: int abc_action_bar_embed_tabs
+android.arch.persistence.room.R$color
+android.arch.persistence.room.R$color: int notification_action_color_filter
+android.arch.persistence.room.R$color: int notification_icon_bg_color
+android.arch.persistence.room.R$color: int ripple_material_light
+android.arch.persistence.room.R$color: int secondary_text_default_material_light
+android.arch.persistence.room.R$dimen
+android.arch.persistence.room.R$dimen: int compat_button_inset_horizontal_material
+android.arch.persistence.room.R$dimen: int compat_button_inset_vertical_material
+android.arch.persistence.room.R$dimen: int compat_button_padding_horizontal_material
+android.arch.persistence.room.R$dimen: int compat_button_padding_vertical_material
+android.arch.persistence.room.R$dimen: int compat_control_corner_material
+android.arch.persistence.room.R$dimen: int notification_action_icon_size
+android.arch.persistence.room.R$dimen: int notification_action_text_size
+android.arch.persistence.room.R$dimen: int notification_big_circle_margin
+android.arch.persistence.room.R$dimen: int notification_content_margin_start
+android.arch.persistence.room.R$dimen: int notification_large_icon_height
+android.arch.persistence.room.R$dimen: int notification_large_icon_width
+android.arch.persistence.room.R$dimen: int notification_main_column_padding_top
+android.arch.persistence.room.R$dimen: int notification_media_narrow_margin
+android.arch.persistence.room.R$dimen: int notification_right_icon_size
+android.arch.persistence.room.R$dimen: int notification_right_side_padding_top
+android.arch.persistence.room.R$dimen: int notification_small_icon_background_padding
+android.arch.persistence.room.R$dimen: int notification_small_icon_size_as_large
+android.arch.persistence.room.R$dimen: int notification_subtext_size
+android.arch.persistence.room.R$dimen: int notification_top_pad
+android.arch.persistence.room.R$dimen: int notification_top_pad_large_text
+android.arch.persistence.room.R$drawable
+android.arch.persistence.room.R$drawable: int notification_action_background
+android.arch.persistence.room.R$drawable: int notification_bg
+android.arch.persistence.room.R$drawable: int notification_bg_low
+android.arch.persistence.room.R$drawable: int notification_bg_low_normal
+android.arch.persistence.room.R$drawable: int notification_bg_low_pressed
+android.arch.persistence.room.R$drawable: int notification_bg_normal
+android.arch.persistence.room.R$drawable: int notification_bg_normal_pressed
+android.arch.persistence.room.R$drawable: int notification_icon_background
+android.arch.persistence.room.R$drawable: int notification_template_icon_bg
+android.arch.persistence.room.R$drawable: int notification_template_icon_low_bg
+android.arch.persistence.room.R$drawable: int notification_tile_bg
+android.arch.persistence.room.R$drawable: int notify_panel_notification_icon_bg
+android.arch.persistence.room.R$id
+android.arch.persistence.room.R$id: int action_container
+android.arch.persistence.room.R$id: int action_divider
+android.arch.persistence.room.R$id: int action_image
+android.arch.persistence.room.R$id: int action_text
+android.arch.persistence.room.R$id: int actions
+android.arch.persistence.room.R$id: int async
+android.arch.persistence.room.R$id: int blocking
+android.arch.persistence.room.R$id: int chronometer
+android.arch.persistence.room.R$id: int forever
+android.arch.persistence.room.R$id: int icon
+android.arch.persistence.room.R$id: int icon_group
+android.arch.persistence.room.R$id: int info
+android.arch.persistence.room.R$id: int italic
+android.arch.persistence.room.R$id: int line1
+android.arch.persistence.room.R$id: int line3
+android.arch.persistence.room.R$id: int normal
+android.arch.persistence.room.R$id: int notification_background
+android.arch.persistence.room.R$id: int notification_main_column
+android.arch.persistence.room.R$id: int notification_main_column_container
+android.arch.persistence.room.R$id: int right_icon
+android.arch.persistence.room.R$id: int right_side
+android.arch.persistence.room.R$id: int text
+android.arch.persistence.room.R$id: int text2
+android.arch.persistence.room.R$id: int time
+android.arch.persistence.room.R$id: int title
+android.arch.persistence.room.R$integer
+android.arch.persistence.room.R$integer: int status_bar_notification_info_maxnum
+android.arch.persistence.room.R$layout
+android.arch.persistence.room.R$layout: int notification_action
+android.arch.persistence.room.R$layout: int notification_action_tombstone
+android.arch.persistence.room.R$layout: int notification_template_custom_big
+android.arch.persistence.room.R$layout: int notification_template_icon_group
+android.arch.persistence.room.R$layout: int notification_template_part_chronometer
+android.arch.persistence.room.R$layout: int notification_template_part_time
+android.arch.persistence.room.R$string
+android.arch.persistence.room.R$string: int status_bar_notification_info_overflow
+android.arch.persistence.room.R$style
+android.arch.persistence.room.R$style: int TextAppearance_Compat_Notification
+android.arch.persistence.room.R$style: int TextAppearance_Compat_Notification_Info
+android.arch.persistence.room.R$style: int TextAppearance_Compat_Notification_Line2
+android.arch.persistence.room.R$style: int TextAppearance_Compat_Notification_Time
+android.arch.persistence.room.R$style: int TextAppearance_Compat_Notification_Title
+android.arch.persistence.room.R$style: int Widget_Compat_NotificationActionContainer
+android.arch.persistence.room.R$style: int Widget_Compat_NotificationActionText
+android.arch.persistence.room.R$styleable
+android.arch.persistence.room.R$styleable: int[] FontFamily
+android.arch.persistence.room.R$styleable: int FontFamily_fontProviderAuthority
+android.arch.persistence.room.R$styleable: int FontFamily_fontProviderCerts
+android.arch.persistence.room.R$styleable: int FontFamily_fontProviderFetchStrategy
+android.arch.persistence.room.R$styleable: int FontFamily_fontProviderFetchTimeout
+android.arch.persistence.room.R$styleable: int FontFamily_fontProviderPackage
+android.arch.persistence.room.R$styleable: int FontFamily_fontProviderQuery
+android.arch.persistence.room.R$styleable: int[] FontFamilyFont
+android.arch.persistence.room.R$styleable: int FontFamilyFont_android_font
+android.arch.persistence.room.R$styleable: int FontFamilyFont_android_fontStyle
+android.arch.persistence.room.R$styleable: int FontFamilyFont_android_fontVariationSettings
+android.arch.persistence.room.R$styleable: int FontFamilyFont_android_fontWeight
+android.arch.persistence.room.R$styleable: int FontFamilyFont_android_ttcIndex
+android.arch.persistence.room.R$styleable: int FontFamilyFont_font
+android.arch.persistence.room.R$styleable: int FontFamilyFont_fontStyle
+android.arch.persistence.room.R$styleable: int FontFamilyFont_fontVariationSettings
+android.arch.persistence.room.R$styleable: int FontFamilyFont_fontWeight
+android.arch.persistence.room.R$styleable: int FontFamilyFont_ttcIndex
 android.support.asynclayoutinflater.R
 android.support.asynclayoutinflater.R$attr
 android.support.asynclayoutinflater.R$attr: int alpha
@@ -3922,6 +4156,125 @@ android.support.v7.viewpager.R$styleable: int[] GradientColorItem
 android.support.v7.viewpager.R$styleable: int GradientColorItem_android_color
 android.support.v7.viewpager.R$styleable: int GradientColorItem_android_offset
 androidx.versionedparcelable.R
+androidx.work.R
+androidx.work.R$attr
+androidx.work.R$attr: int font
+androidx.work.R$attr: int fontProviderAuthority
+androidx.work.R$attr: int fontProviderCerts
+androidx.work.R$attr: int fontProviderFetchStrategy
+androidx.work.R$attr: int fontProviderFetchTimeout
+androidx.work.R$attr: int fontProviderPackage
+androidx.work.R$attr: int fontProviderQuery
+androidx.work.R$attr: int fontStyle
+androidx.work.R$attr: int fontWeight
+androidx.work.R$bool
+androidx.work.R$bool: int abc_action_bar_embed_tabs
+androidx.work.R$bool: int enable_system_alarm_service_default
+androidx.work.R$bool: int enable_system_job_service_default
+androidx.work.R$bool: int workmanager_test_configuration
+androidx.work.R$color
+androidx.work.R$color: int notification_action_color_filter
+androidx.work.R$color: int notification_icon_bg_color
+androidx.work.R$color: int ripple_material_light
+androidx.work.R$color: int secondary_text_default_material_light
+androidx.work.R$dimen
+androidx.work.R$dimen: int compat_button_inset_horizontal_material
+androidx.work.R$dimen: int compat_button_inset_vertical_material
+androidx.work.R$dimen: int compat_button_padding_horizontal_material
+androidx.work.R$dimen: int compat_button_padding_vertical_material
+androidx.work.R$dimen: int compat_control_corner_material
+androidx.work.R$dimen: int notification_action_icon_size
+androidx.work.R$dimen: int notification_action_text_size
+androidx.work.R$dimen: int notification_big_circle_margin
+androidx.work.R$dimen: int notification_content_margin_start
+androidx.work.R$dimen: int notification_large_icon_height
+androidx.work.R$dimen: int notification_large_icon_width
+androidx.work.R$dimen: int notification_main_column_padding_top
+androidx.work.R$dimen: int notification_media_narrow_margin
+androidx.work.R$dimen: int notification_right_icon_size
+androidx.work.R$dimen: int notification_right_side_padding_top
+androidx.work.R$dimen: int notification_small_icon_background_padding
+androidx.work.R$dimen: int notification_small_icon_size_as_large
+androidx.work.R$dimen: int notification_subtext_size
+androidx.work.R$dimen: int notification_top_pad
+androidx.work.R$dimen: int notification_top_pad_large_text
+androidx.work.R$drawable
+androidx.work.R$drawable: int notification_action_background
+androidx.work.R$drawable: int notification_bg
+androidx.work.R$drawable: int notification_bg_low
+androidx.work.R$drawable: int notification_bg_low_normal
+androidx.work.R$drawable: int notification_bg_low_pressed
+androidx.work.R$drawable: int notification_bg_normal
+androidx.work.R$drawable: int notification_bg_normal_pressed
+androidx.work.R$drawable: int notification_icon_background
+androidx.work.R$drawable: int notification_template_icon_bg
+androidx.work.R$drawable: int notification_template_icon_low_bg
+androidx.work.R$drawable: int notification_tile_bg
+androidx.work.R$drawable: int notify_panel_notification_icon_bg
+androidx.work.R$id
+androidx.work.R$id: int action_container
+androidx.work.R$id: int action_divider
+androidx.work.R$id: int action_image
+androidx.work.R$id: int action_text
+androidx.work.R$id: int actions
+androidx.work.R$id: int async
+androidx.work.R$id: int blocking
+androidx.work.R$id: int chronometer
+androidx.work.R$id: int forever
+androidx.work.R$id: int icon
+androidx.work.R$id: int icon_group
+androidx.work.R$id: int info
+androidx.work.R$id: int italic
+androidx.work.R$id: int line1
+androidx.work.R$id: int line3
+androidx.work.R$id: int normal
+androidx.work.R$id: int notification_background
+androidx.work.R$id: int notification_main_column
+androidx.work.R$id: int notification_main_column_container
+androidx.work.R$id: int right_icon
+androidx.work.R$id: int right_side
+androidx.work.R$id: int text
+androidx.work.R$id: int text2
+androidx.work.R$id: int time
+androidx.work.R$id: int title
+androidx.work.R$integer
+androidx.work.R$integer: int status_bar_notification_info_maxnum
+androidx.work.R$layout
+androidx.work.R$layout: int notification_action
+androidx.work.R$layout: int notification_action_tombstone
+androidx.work.R$layout: int notification_template_custom_big
+androidx.work.R$layout: int notification_template_icon_group
+androidx.work.R$layout: int notification_template_part_chronometer
+androidx.work.R$layout: int notification_template_part_time
+androidx.work.R$string
+androidx.work.R$string: int status_bar_notification_info_overflow
+androidx.work.R$style
+androidx.work.R$style: int TextAppearance_Compat_Notification
+androidx.work.R$style: int TextAppearance_Compat_Notification_Info
+androidx.work.R$style: int TextAppearance_Compat_Notification_Line2
+androidx.work.R$style: int TextAppearance_Compat_Notification_Time
+androidx.work.R$style: int TextAppearance_Compat_Notification_Title
+androidx.work.R$style: int Widget_Compat_NotificationActionContainer
+androidx.work.R$style: int Widget_Compat_NotificationActionText
+androidx.work.R$styleable
+androidx.work.R$styleable: int[] FontFamily
+androidx.work.R$styleable: int FontFamily_fontProviderAuthority
+androidx.work.R$styleable: int FontFamily_fontProviderCerts
+androidx.work.R$styleable: int FontFamily_fontProviderFetchStrategy
+androidx.work.R$styleable: int FontFamily_fontProviderFetchTimeout
+androidx.work.R$styleable: int FontFamily_fontProviderPackage
+androidx.work.R$styleable: int FontFamily_fontProviderQuery
+androidx.work.R$styleable: int[] FontFamilyFont
+androidx.work.R$styleable: int FontFamilyFont_android_font
+androidx.work.R$styleable: int FontFamilyFont_android_fontStyle
+androidx.work.R$styleable: int FontFamilyFont_android_fontVariationSettings
+androidx.work.R$styleable: int FontFamilyFont_android_fontWeight
+androidx.work.R$styleable: int FontFamilyFont_android_ttcIndex
+androidx.work.R$styleable: int FontFamilyFont_font
+androidx.work.R$styleable: int FontFamilyFont_fontStyle
+androidx.work.R$styleable: int FontFamilyFont_fontVariationSettings
+androidx.work.R$styleable: int FontFamilyFont_fontWeight
+androidx.work.R$styleable: int FontFamilyFont_ttcIndex
 com.google.android.gms.base.R
 com.google.android.gms.base.R$attr
 com.google.android.gms.base.R$attr: int buttonSize
@@ -4153,6 +4506,9 @@ com.pushwoosh.R$attr: R$attr()
 com.pushwoosh.R$attr: void <clinit>()
 com.pushwoosh.R$bool
 com.pushwoosh.R$bool: int abc_action_bar_embed_tabs
+com.pushwoosh.R$bool: int enable_system_alarm_service_default
+com.pushwoosh.R$bool: int enable_system_job_service_default
+com.pushwoosh.R$bool: int workmanager_test_configuration
 com.pushwoosh.R$bool: R$bool()
 com.pushwoosh.R$bool: void <clinit>()
 com.pushwoosh.R$color
@@ -5055,6 +5411,9 @@ com.pushwoosh.location.R$attr: R$attr()
 com.pushwoosh.location.R$attr: void <clinit>()
 com.pushwoosh.location.R$bool
 com.pushwoosh.location.R$bool: int abc_action_bar_embed_tabs
+com.pushwoosh.location.R$bool: int enable_system_alarm_service_default
+com.pushwoosh.location.R$bool: int enable_system_job_service_default
+com.pushwoosh.location.R$bool: int workmanager_test_configuration
 com.pushwoosh.location.R$bool: R$bool()
 com.pushwoosh.location.R$bool: void <clinit>()
 com.pushwoosh.location.R$color
@@ -7881,6 +8240,9 @@ io.trigger.forge.android.modules.pushwoosh_geozones.R$bool
 io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: int abc_action_bar_embed_tabs
 io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: int abc_allow_stacked_button_bar
 io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: int abc_config_actionMenuItemAllCaps
+io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: int enable_system_alarm_service_default
+io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: int enable_system_job_service_default
+io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: int workmanager_test_configuration
 io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: R$bool()
 io.trigger.forge.android.modules.pushwoosh_geozones.R$bool: void <clinit>()
 io.trigger.forge.android.modules.pushwoosh_geozones.R$color
